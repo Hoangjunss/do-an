@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="signup">
+        <h1>Đăng kí miễn phí</h1>
+    
+        <form >
+    
+            <div class="top-row">
+                <div class="field-wrap">
+                    <label>
+                        Họ<span class="req">*</span>
+                    </label>
+                    <input name="ho" class="name" type="text" required autocomplete="off" />
+                </div>
+    
+                <div class="field-wrap">
+                    <label>
+                        Tên<span class="req">*</span>
+                    </label>
+                    <input name="ten" type="text" class="fullname" required autocomplete="off" />
+                </div>
+            </div> <!-- / ho ten -->
+    
+            <div class="field-wrap">
+                <label>
+                    Địa chỉ Email<span class="req">*</span>
+                </label>
+                <input name="email" type="email" class="email" required autocomplete="off" />
+            </div> <!-- /email -->
+    
+            <div class="field-wrap">
+                <label>
+                    Tên đăng nhập<span class="req">*</span>
+                </label>
+                <input name="newUser" class="username" type="text" required autocomplete="off" />
+            </div> <!-- /user name -->
+    
+            <div class="field-wrap">
+                <label>
+                    Mật khẩu<span class="req">*</span>
+                </label>
+                <input name="newPass" type="password" class="pass" required autocomplete="off" />
+            </div> <!-- /pass -->
+    
+            <button type="submit" onclick="getuser()" class="button button-block" >Tạo tài khoản</button>
+    
+        </form> <!-- /form -->
+    
+      </div>
+      <script src="/javascripts/data.js"></script>
+      <script src="/javascripts/main.js"></script>
+   
+      
+      
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="login">
+        <h1>Chào mừng bạn trở lại!</h1>
+
+        <form >
+
+            <div class="field-wrap">
+                <label>
+                    Tên đăng nhập<span class="req">*</span>
+                </label>
+                <input name='username' class="usernamereg" type="text" required autocomplete="off" />
+            </div> <!-- /user name -->
+
+            <div class="field-wrap">
+                <label>
+                    Mật khẩu<span class="req">*</span>
+                </label>
+                <input name="pass" class="passreg" type="password" required autocomplete="off" />
+            </div> <!-- pass -->
+
+            <p class="forgot"><a href="#">Quên mật khẩu?</a></p>
+
+            <button type="submit" onclick="login()" class="button button-block" >Tiếp tục</button>
+
+        </form> <!-- /form -->
+
+    </div> <!-- /log in -->
+    <script src="/javascripts/main.js"></script>
+
+</body>
+</html>
