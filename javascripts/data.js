@@ -357,5 +357,209 @@ var list_products =[{
         "battery":"5000mAh"
     },
     "masp": "vivo010"
-}
+},
+{
+    "name": "iphone 13 pro max",
+    "company": "iphone",
+    "img": "image/iphone-13-pro-max-xanh-la-thumb-600x600.jgp",
+    "price": "29,490,000đ",
+    "detail": {
+        "screen": "Super Retina XDR OLED",
+        "os": "ios17",
+        "camera": "12MP , f/1.5",
+        "cameraFront": "12MP , f/2.8",
+        "cpu": "chip A15 Bionic",
+        "ram": "6gb",
+        "rom": "512gb",
+        "battery":"4352mah"
+    },
+    "masp": "iphone01"
+},
+{
+    "name": "iphone 15 pro max",
+    "company": "iphone",
+    "img": "image/ip15promax.jpg",
+    "price": "40.990.000đ",
+    "detail": {
+        "screen": "Super Retina XDR OLED",
+        "os": "ios17",
+        "camera": "12MP",
+        "cameraFront": "48MP-12MP-12MP",
+        "cpu": "chip A17 Pro",
+        "ram": "8gb",
+        "rom": "512gb",
+        "battery":"4.422 mAh"
+    },
+    "masp": "iphone02"
+},
+{
+    "name": "iphone 14 pro max",
+    "company": "iphone",
+    "img": "image/ip14promax.jpg",
+    "price": "32.990.000đ",
+    "detail": {
+        "screen": "Super Retina XDR OLED",
+        "os": "ios17",
+        "camera": "12MP",
+        "cameraFront": "48MP-12MP-12MP",
+        "cpu": "Apple A16 Bionic",
+        "ram": "6gb",
+        "rom": "512gb",
+        "battery":"4323mah"
+    },
+    "masp": "iphone03"
+},
+{
+    "name": "iphone 12 pro max",
+    "company": "iphone",
+    "img": "image/ip12promax.jpg",
+    "price": "23.490.000đ",
+    "detail": {
+        "screen": "Super Retina XDR OLED",
+        "os": "ios17",
+        "camera": "12MP",
+        "cameraFront": "12MP-12MP-12MP",
+        "cpu": "Apple A14 Bionic",
+        "ram": "6gb",
+        "rom": "128GB",
+        "battery":"3687mah"
+    },
+    "masp": "iphone04"
+},
+{
+    "name": "iphone 11 pro max",
+    "company": "iphone",
+    "img": "image/ip11promax.jpg",
+    "price": "13.690.000đ",
+    "detail": {
+        "screen": "Super Retina XDR OLED",
+        "os": "ios17",
+        "camera": "12MP",
+        "cameraFront": "12MP-12MP-12MP",
+        "cpu": "Apple  A13 Bionic",
+        "ram": "4gb",
+        "rom": "256GB",
+        "battery":"3110mah"
+    },
+    "masp": "iphone05"
+},
+{
+    "name": "iphone xs max",
+    "company": "iphone",
+    "img": "image/ipxsmax.jpg",
+    "price": "7.990.000đ",
+    "detail": {
+        "screen": "OLED-6.5-Super Retina",
+        "os": "ios17",
+        "camera": "7MP",
+        "cameraFront": "12MP-12MP",
+        "cpu": "Apple A12 Bionic",
+        "ram": "4gb",
+        "rom": "256GB",
+        "battery":"3174mah"
+    },
+    "masp": "iphone06"
+},
+{
+    "name": "iphone se max",
+    "company": "iphone",
+    "img": "image/ipse.jpg",
+    "price": "9.990.000đ",
+    "detail": {
+        "screen": "IPS LCD4.7 Retina HD",
+        "os": "ios17",
+        "camera": "7MP",
+        "cameraFront": "12MP",
+        "cpu": "Apple A12 Bionic",
+        "ram": "4gb",
+        "rom": "256GB",
+        "battery":"2018mah"
+    },
+    "masp": "iphone07"
+},
+{
+    "name": "iphone x",
+    "company": "iphone",
+    "img": "image/ipx.jpg",
+    "price": "6.190.000đ",
+    "detail": {
+        "screen": "OLED5.8Super Retina",
+        "os": "ios16",
+        "camera": "7MP",
+        "cameraFront": "12MP-12MP",
+        "cpu": "Apple A11 Bionic",
+        "ram": "3gb",
+        "rom": "64GB",
+        "battery":"2716mah"
+    },
+    "masp": "iphone08"
+},
+{
+    "name": "iphone 15",
+    "company": "iphone",
+    "img": "image/ip15.jpg",
+    "price": "22.990.000đ",
+    "detail": {
+        "screen": "OLED6.1Super Retina XDR",
+        "os": "ios17",
+        "camera": "12MP",
+        "cameraFront": "48MP-12MP",
+        "cpu": "Apple A16 Bionic",
+        "ram": "6gb",
+        "rom": "128GB",
+        "battery":"3349mah"
+    },
+    "masp": "iphone09"
+},
+{
+    "name": "iphone 15 plus",
+    "company": "iphone",
+    "img": "image/ip15plus.jpg",
+    "price": "33.990.000đ",
+    "detail": {
+        "screen": "Super Retina XDR OLED",
+        "os": "ios17",
+        "camera": "12MP",
+        "cameraFront": "48MP-12MP",
+        "cpu": "Apple A16 Bionic",
+        "ram": "6gb",
+        "rom": "512GB",
+        "battery":"4383mah"
+    },
+    "masp": "iphone10"
+},
+{
+    "name": "iphone 15 pro",
+    "company": "iphone",
+    "img": "image/ip15promax.jpg",
+    "price": "36.490.000đ",
+    "detail": {
+        "screen": "Super Retina XDR OLED",
+        "os": "ios17",
+        "camera": "12MP",
+        "cameraFront": "48MP-12MP-12MP",
+        "cpu": "Apple A16 Bionic",
+        "ram": "6gb",
+        "rom": "512GB",
+        "battery":"3.349mah"
+    },
+    "masp": "iphone11"
+},
+{
+    "name": "iphone 14 pro",
+    "company": "iphone",
+    "img": "image/ip14pro.jpg",
+    "price": "32.990.000đ",
+    "detail": {
+        "screen": "Super Retina XDR OLED",
+        "os": "ios17",
+        "camera": "12MP",
+        "cameraFront": "48MP-12MP-12MP",
+        "cpu": "Apple A16 Bionic",
+        "ram": "6gb",
+        "rom": "512GB",
+        "battery":"3200 mah"
+    },
+    "masp": "iphone12"
+},
 ]
