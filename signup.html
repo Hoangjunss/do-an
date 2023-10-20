@@ -4,55 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .margin{
+            margin-bottom: 30px;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            background-color: #f8c291;
+        }
+        .signup{
+            width: 40%;
+            height: 70%;
+            border: 1px solid;
+            
+        }
+        h1{
+            font-size: 40px;
+            text-align: center;
+        }
+        .field-wrap{
+            font-size: 15px;
+        }
+        
+    </style>
 </head>
 <body>
-    <div id="signup">
-        <h1>Đăng kí miễn phí</h1>
-    
-        <form >
-    
-            <div class="top-row">
-                <div class="field-wrap">
+    <div class="container">
+        <div class="signup margin">
+            <h1 class="margin">Đăng kí miễn phí</h1>
+        
+            <form >
+        
+                
+                    <div class="field-wrap margin">
+                        <label>
+                            Họ<span class="req">*</span>
+                        </label>
+                        <input name="ho" class="name" type="text" required autocomplete="off" />
+                    </div>
+        
+                    <div class="field-wrap margin">
+                        <label>
+                            Tên<span class="req">*</span>
+                        </label>
+                        <input name="ten" type="text" class="fullname" required autocomplete="off" />
+                    </div>
+                 <!-- / ho ten -->
+        
+                <div class="field-wrap margin">
                     <label>
-                        Họ<span class="req">*</span>
+                        Email<span class="req">*</span>
                     </label>
-                    <input name="ho" class="name" type="text" required autocomplete="off" />
-                </div>
-    
-                <div class="field-wrap">
+                    <input name="email" type="email" class="email" required autocomplete="off" style="font-size: 15px;" />
+                </div> <!-- /email -->
+        
+                <div class="field-wrap margin">
                     <label>
-                        Tên<span class="req">*</span>
+                        user<span class="req">*</span>
                     </label>
-                    <input name="ten" type="text" class="fullname" required autocomplete="off" />
-                </div>
-            </div> <!-- / ho ten -->
+                    <input name="newUser" class="username" type="text" required autocomplete="off" />
+                </div> <!-- /user name -->
+        
+                <div class="field-wrap margin">
+                    <label>
+                        Mật khẩu<span class="req">*</span>
+                    </label>
+                    <input name="newPass" type="password" class="pass" required autocomplete="off" />
+                </div> <!-- /pass -->
+        
+                <button type="submit" onclick="getuser()" class="button margin" >Tạo tài khoản</button>
+        
+            </form> <!-- /form -->
+        
+          </div>
+    </div>
     
-            <div class="field-wrap">
-                <label>
-                    Địa chỉ Email<span class="req">*</span>
-                </label>
-                <input name="email" type="email" class="email" required autocomplete="off" />
-            </div> <!-- /email -->
-    
-            <div class="field-wrap">
-                <label>
-                    Tên đăng nhập<span class="req">*</span>
-                </label>
-                <input name="newUser" class="username" type="text" required autocomplete="off" />
-            </div> <!-- /user name -->
-    
-            <div class="field-wrap">
-                <label>
-                    Mật khẩu<span class="req">*</span>
-                </label>
-                <input name="newPass" type="password" class="pass" required autocomplete="off" />
-            </div> <!-- /pass -->
-    
-            <button type="submit" onclick="getuser()" class="button button-block" >Tạo tài khoản</button>
-    
-        </form> <!-- /form -->
-    
-      </div>
       <script src="/javascripts/data.js"></script>
       <script src="/javascripts/main.js"></script>
    
