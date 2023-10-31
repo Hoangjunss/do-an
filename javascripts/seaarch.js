@@ -30,7 +30,7 @@ function getprice(){
     displayItem(filteredData)
     
 }
-
+//////////
 /*function getma(e){
     e.preventDefault();
     const searchData = e.querySelector('.name');
