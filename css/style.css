@@ -1,3 +1,6 @@
 .text{
     text-transform: uppercase;
 }
+.hover{
+    opacity: 0.6;
+}
