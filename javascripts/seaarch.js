@@ -10,8 +10,10 @@ document.getElementById('searchBar').addEventListener('keyup', (e) => {
     displayItem(filteredData)
 });
 function getcompany(){
-    const searchData = document.getElementById('list-company').value.toLowerCase();
-    const filteredData = categories.filter((item) => {
+     const searchData = document.getElementById('list-company').value.toLowerCase();
+     console.log(searchData);
+    
+     const filteredData = categories.filter((item) => {
         return (
             item.company.toLowerCase().includes(searchData)
         )
@@ -23,14 +25,48 @@ function getprice(){
     console.log(searchData);
     const filteredData = categories.filter((item) => {
         return (
-            item.listprice.includes(searchData)
+           item.listprice && item.listprice.includes(searchData)
         )
     })
     console.log(filteredData);
     displayItem(filteredData)
     
 }
-//////////
+function getsearch(){
+    const searchDataprice = document.getElementById('list-price').value.toLowerCase();
+    
+    const searchDatacompany = document.getElementById('list-company').value.toLowerCase();
+    console.log(searchDatacompany);
+    if(searchDatacompany!="company" && searchDataprice!="price"){
+        const filteredData = categories.filter((item) => {
+            return (
+                 item.company.includes(searchDatacompany)&& item.listprice && item.listprice.includes(searchDataprice)
+            )
+        })
+        
+        displayItem(filteredData)
+    }else
+    if(searchDataprice && searchDatacompany=="company"){
+        const filteredData = categories.filter((item) => {
+            return (
+               item.listprice && item.listprice.includes(searchDataprice)
+            )
+        })
+        alert("hello");
+        displayItem(filteredData)
+    }else if(searchDatacompany ){
+        
+            const filteredData = categories.filter((item) => {
+                return (
+                    item.company.includes(searchDatacompany)
+                )
+            })
+            console.log(filteredData)
+            displayItem(filteredData)
+        }
+    
+}
+
 /*function getma(e){
     e.preventDefault();
     const searchData = e.querySelector('.name');

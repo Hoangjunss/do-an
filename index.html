@@ -18,7 +18,7 @@
           <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
               <li class="nav-item mx-sm-2">
-                <a class="nav-link text-primary text " href="javascript:void(0)">introduce</a>
+                <a class="nav-link text-primary text  " href="javascript:void(0)">introduce</a>
               </li>
               <li class="nav-item mx-sm-2">
                 <a class="nav-link text-primary text " href="javascript:void(0)">apple</a>
@@ -36,26 +36,30 @@
                 <a class="nav-link text-primary text " href="javascript:void(0)">oppo</a>
               </li>
             </ul>
-            <form class="d-flex ">
+            <form class="d-flex col-sm-4 ms-sm-2 ">
               <input class="form-control me-2 " type="text" placeholder="Search">
               <button class="btn btn-primary" type="button">Search</button>
             </form>
           </div>
         </div>
       </nav>
-       <img class=" img mh-100 overflow-hidden container-fluid" src="image/quang-cao1.jpg" style="height: 800px;" alt="New York" > 
-       <div class="row">
-        <div class="col-sm-4">
-            <select name="" id="list-company">
-                <option value="company">company</option>
-                <option value="xiaomi">xiaomi</option>
-                <option value="vivo">vivo</option>
-                <option value="samsung">samsung</option>
-                <option value="iphone">iphone</option>
-            </select>
-        </div>
-        <div class="col-sm-8"></div>
-       </div>
+       <img class=" img mh-100 overflow-hidden container-fluid " src="image/quang-cao1.jpg" style="height: 800px;" alt="New York" > 
+      <div class=" mh-100 ms-sm-5" style="height: 100px; margin: 50px; border: 1px lightcyan;">
+        <select class="col-sm-4 mx-sm-5" name="" id="list-company" onchange="getcompany()">
+            <option value="company">company</option>
+            <option value="xiaomi">xiaomi</option>
+            <option value="vivo">vivo</option>
+            <option value="samsung">samsung</option>
+            <option value="iphone">iphone</option>
+        </select>
+        <select class="col-sm-4" name="" id="list-price" onchange="getprice()">
+            <option value="company">price</option>
+            <option value="0-5milion">5 triệu</option>
+            <option value="5milion-10milion">10 triệu</option>
+            <option value="10milion-15milion">15 triệu</option>
+          
+        </select>
+      </div>
         <script>
            var img= document.querySelector(".img");
            var index=1;
