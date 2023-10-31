@@ -20,11 +20,13 @@ function getcompany(){
 }
 function getprice(){
     const searchData = document.getElementById('list-price').value.toLowerCase();
+    console.log(searchData);
     const filteredData = categories.filter((item) => {
         return (
-            item.listprice.toLowerCase().includes(searchData)
+            item.listprice.includes(searchData)
         )
     })
+    console.log(filteredData);
     displayItem(filteredData)
     
 }

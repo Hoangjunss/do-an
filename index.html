@@ -9,39 +9,81 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-warning bg-gradient">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-warning bg-gradient fixed-top mh-100" style="height: 80px;" >
         <div class="container-fluid">
-          <a class="navbar-brand mx-5 text-primary text " href="javascript:void(0)">Logo</a>
+          <a class="navbar-brand mx-sm-2 text-primary text " href="javascript:void(0)">Logo</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
-              <li class="nav-item mx-5">
-                <a class="nav-link text-primary text " href="javascript:void(0)">Giới thiệu</a>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text " href="javascript:void(0)">introduce</a>
               </li>
-              <li class="nav-item mx-5">
+              <li class="nav-item mx-sm-2">
                 <a class="nav-link text-primary text " href="javascript:void(0)">apple</a>
               </li>
-              <li class="nav-item mx-5">
+              <li class="nav-item mx-sm-2">
                 <a class="nav-link text-primary text " href="javascript:void(0)">vivo</a>
               </li>
-              <li class="nav-item mx-5">
+              <li class="nav-item mx-sm-2">
                 <a class="nav-link text-primary text " href="javascript:void(0)">xiaomi</a>
               </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text " href="javascript:void(0)">samsung</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text " href="javascript:void(0)">oppo</a>
+              </li>
             </ul>
-            <form class="d-flex mx-5">
+            <form class="d-flex ">
               <input class="form-control me-2 " type="text" placeholder="Search">
               <button class="btn btn-primary" type="button">Search</button>
             </form>
           </div>
         </div>
       </nav>
-      
-        <img class="mh-100 overflow-hidden container-fluid" src="image/quang-cao1.jpg" style="height: 800px;" alt="New York" > 
-      
-       
-    
-
+       <img class=" img mh-100 overflow-hidden container-fluid" src="image/quang-cao1.jpg" style="height: 800px;" alt="New York" > 
+       <div class="row">
+        <div class="col-sm-4">
+            <select name="" id="list-company">
+                <option value="company">company</option>
+                <option value="xiaomi">xiaomi</option>
+                <option value="vivo">vivo</option>
+                <option value="samsung">samsung</option>
+                <option value="iphone">iphone</option>
+            </select>
+        </div>
+        <div class="col-sm-8"></div>
+       </div>
+        <script>
+           var img= document.querySelector(".img");
+           var index=1;
+        changeImge = function()
+        {
+            var imgs = ["image/quang-cao1.jpg","image/quang-cao2.png","image/quang-cao3.jpg","image/quang-cao4.jpg"];
+            console.log(imgs[index]);
+            switch (index) {
+                case 1:
+                    img.src =imgs[index] ;
+                    break;
+                
+                case 2:
+                    img.src = imgs[index];
+                    break;
+                
+                case 3:
+                   img.src= imgs[index];
+                    break;
+                
+                case 0:
+                    img.src = imgs[index];
+                    break;
+            }
+            index++;
+            if(index==4) index = 0;
+        }
+        setInterval(changeImge,2000);
+        </script>
 </body>
 </html>
