@@ -37,7 +37,7 @@
               </li>
             </ul>
             <form class="d-flex col-sm-4 ms-sm-2 ">
-              <input class="form-control me-2 " type="text" placeholder="Search">
+              <input class="form-control me-2 " id="searchBar" type="text" placeholder="Search">
               <button class="btn btn-primary" type="button">Search</button>
             </form>
           </div>
@@ -45,20 +45,27 @@
       </nav>
        <img class=" img mh-100 overflow-hidden container-fluid " src="image/quang-cao1.jpg" style="height: 600px;" alt="New York" > 
       <div class=" mh-100 ms-sm-5" style="height: 100px; margin: 50px; border: 1px solid ;">
-        <select class="col-sm-4 mx-sm-5 my-sm-3" style="line-height: 50px;" name="" id="list-company" onchange="getsearch()">
+        <select class="col-sm-3 mx-sm-5 my-sm-3" style="line-height: 50px;" name="" id="list-company" onchange="getsearch()">
             <option value="company">company</option>
             <option value="xiaomi">xiaomi</option>
             <option value="vivo">vivo</option>
             <option value="samsung">samsung</option>
             <option value="iphone">iphone</option>
         </select>
-        <select class="col-sm-4 my-sm-3" name="" id="list-price" onchange="getsearch()">
-            <option value="company">price</option>
+        <select class="col-sm-3 my-sm-3" name="" id="list-price" onchange="getsearch()">
+            <option value="price">price</option>
             <option value="0-5milion">5 triệu</option>
             <option value="5milion-10milion">10 triệu</option>
             <option value="10milion-15milion">15 triệu</option>
           
         </select>
+        <select class="col-sm-3 my-sm-3" name="" id="list-ram" onchange="">
+          <option value="ram">ram</option>
+          <option value="64gb">64gb</option>
+          <option value="128gb">128gb</option>
+          <option value="256gb">256gb</option>
+          <option value="512gb">512gb</option>
+      </select>
       </div>
       <div class="container-fluid mh-100 row mx-sm-5"
       id="root">
