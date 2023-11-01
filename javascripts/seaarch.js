@@ -57,20 +57,20 @@ function getprice(){
 }*/
 function getsearch(){
     const searchDataprice = document.getElementById('list-price').value.toLowerCase();
-    
+    const  searchDataram=document.getElementById('list-ram').value;
     const searchDatacompany = document.getElementById('list-company').value.toLowerCase();
     
-    if(searchDatacompany!="company" && searchDataprice!="price"){
+    if(searchDatacompany!="company" && searchDataprice!="price" && searchDataram!="ram"){
         console.log("1");
         const filteredData = categories.filter((item) => {
             return (
-                 item.company.includes(searchDatacompany)&& item.listprice && item.listprice.includes(searchDataprice)
+                 item.company.includes(searchDatacompany)&& item.listprice && item.listprice.includes(searchDataprice)&& item.detail.ram && item.detail.ram.includes(searchDataram)
             )
         })
         
         displayItem(filteredData)
     }else
-    if(searchDataprice && searchDatacompany=="company"){
+    if(searchDataprice && searchDatacompany=="company"&&searchDataram=="ram"){
         console.log("2");
         const filteredData = categories.filter((item) => {
             return (
@@ -79,7 +79,7 @@ function getsearch(){
         })
         
         displayItem(filteredData)
-    }else if(searchDatacompany ){
+    }else if(searchDatacompany &&searchDataram=="ram"&&searchDataprice=="price" ){
         console.log("3");
             const filteredData = categories.filter((item) => {
                 return (
@@ -87,6 +87,42 @@ function getsearch(){
                 )
             })
             console.log(filteredData)
+            displayItem(filteredData)
+        }else if(searchDataprice && searchDatacompany!="company"&&searchDataram=="ram"){
+            const filteredData = categories.filter((item) => {
+                return (
+                    item.company.includes(searchDatacompany)&& item.listprice && item.listprice.includes(searchDataprice)
+                )
+            })
+            
+            displayItem(filteredData)
+        }
+        else if(searchDataprice=="price" && searchDatacompany=="company"&&searchDataram!="ram"){
+            const filteredData = categories.filter((item) => {
+                return (
+                    item.detail.ram && item.detail.ram.includes(searchDataram)
+                )
+            })
+            displayItem(filteredData)
+        }
+        else if(searchDataprice!="price" && searchDatacompany=="company"&&searchDataram!="ram"){
+            console.log("price ram")
+            console.log(searchDataprice);
+            console.log(searchDataram)
+            const filteredData = categories.filter((item) => {
+                return (
+                    item.listprice && item.listprice.includes(searchDataprice)&& item.detail.ram && item.detail.ram.includes(searchDataram)
+                )
+            })
+            console.log(filteredData)
+            displayItem(filteredData)
+        }else if(searchDataprice=="price" && searchDatacompany!="company"&&searchDataram!="ram"){
+            console.log(5)
+            const filteredData = categories.filter((item) => {
+                return (
+                   item.company&& item.company.includes(searchDatacompany)&& item.detail.ram && item.detail.ram.includes(searchDataram)
+                )
+            })
             displayItem(filteredData)
         }
     
@@ -105,5 +141,18 @@ function getsearch(){
 }*/
 function them(masp,name){
     console.log(name);
+}
+function getram(){
+    searchDataram=document.getElementById('list-ram').value;
+    console.log(searchDataram);
+    if(searchDataram){
+        const filteredData = categories.filter((item) => {
+            return (
+                item.detail.ram && item.detail.ram.includes(searchDataram)
+            )
+        })
+        console.log(filteredData)
+        displayItem(filteredData)
+    }
 }
 
