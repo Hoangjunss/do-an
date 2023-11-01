@@ -359,7 +359,7 @@ var list_products =[{
     "masp": "vivo010"
 },
 {
-    "name": "iphone 13 pro max",
+    "name": "Iphone 13 Pro Max",
     "company": "iphone",
     "img": "image/iphone-13-pro-max-xanh-la-thumb-600x600.jpg",
     "price": "29,490,000đ",
@@ -377,7 +377,7 @@ var list_products =[{
     "masp": "iphone01"
 },
 {
-    "name": "iphone 15 pro max",
+    "name": "Iphone 15 Pro Max",
     "company": "iphone",
     "img": "image/ip15promax.jpg",
     "price": "40.990.000đ",
@@ -395,7 +395,7 @@ var list_products =[{
     "masp": "iphone02"
 },
 {
-    "name": "iphone 14 pro max",
+    "name": "Iphone 14 Pro Max",
     "company": "iphone",
     "img": "image/ip14promax.jpg",
     "price": "32.990.000đ",
@@ -413,7 +413,7 @@ var list_products =[{
     "masp": "iphone03"
 },
 {
-    "name": "iphone 12 pro max",
+    "name": "Iphone 12 Pro Max",
     "company": "iphone",
     "img": "image/ip12promax.jpg",
     "price": "23.490.000đ",
@@ -431,7 +431,7 @@ var list_products =[{
     "masp": "iphone04"
 },
 {
-    "name": "iphone 11 pro max",
+    "name": "Iphone 11 Pro Max",
     "company": "iphone",
     "img": "image/ip11promax.jpg",
     "price": "13.690.000đ",
@@ -449,7 +449,7 @@ var list_products =[{
     "masp": "iphone05"
 },
 {
-    "name": "iphone xs max",
+    "name": "Iphone XS Max",
     "company": "iphone",
     "img": "image/ipxsmax.jpg",
     "price": "7.990.000đ",
@@ -467,7 +467,7 @@ var list_products =[{
     "masp": "iphone06"
 },
 {
-    "name": "iphone se max",
+    "name": "Iphone SE Max",
     "company": "iphone",
     "img": "image/ipse.jpg",
     "price": "9.990.000đ",
@@ -485,7 +485,7 @@ var list_products =[{
     "masp": "iphone07"
 },
 {
-    "name": "iphone x",
+    "name": "Iphone X",
     "company": "iphone",
     "img": "image/ipx.jpg",
     "price": "6.190.000đ",
@@ -503,7 +503,7 @@ var list_products =[{
     "masp": "iphone08"
 },
 {
-    "name": "iphone 15",
+    "name": "Iphone 15",
     "company": "iphone",
     "img": "image/ip15.jpg",
     "price": "22.990.000đ",
@@ -521,7 +521,7 @@ var list_products =[{
     "masp": "iphone09"
 },
 {
-    "name": "iphone 15 plus",
+    "name": "Iphone 15 Plus",
     "company": "iphone",
     "img": "image/ip15plus.jpg",
     "price": "33.990.000đ",
@@ -539,7 +539,7 @@ var list_products =[{
     "masp": "iphone10"
 },
 {
-    "name": "iphone 15 pro",
+    "name": "Iphone 15 Pro",
     "company": "iphone",
     "img": "image/ip15promax.jpg",
     "price": "36.490.000đ",
@@ -557,7 +557,7 @@ var list_products =[{
     "masp": "iphone11"
 },
 {
-    "name": "iphone 14 pro",
+    "name": "Iphone 14 Pro",
     "company": "iphone",
     "img": "image/ip14pro.jpg",
     "price": "32.990.000đ",
