@@ -7,7 +7,7 @@ const displayItem = (items) => {
         var chitietSp='chitietsanpham.html?' +name.split(' ').join('-');
         console.log(masp);
         return (
-            `<div class='box col-sm-5'>
+            `<div class='box col-sm-2'>
             <a href="` + chitietSp + `">
                 <div class='img-box'>
                     <img class='images' src=${img}></img>
