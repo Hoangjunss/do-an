@@ -361,7 +361,7 @@ var list_products =[{
 {
     "name": "iphone 13 pro max",
     "company": "iphone",
-    "img": "image\iphone-13-pro-max-xanh-la-thumb-600x600.jpg",
+    "img": "image/iphone-13-pro-max-xanh-la-thumb-600x600.jpg",
     "price": "29,490,000đ",
     "listprice":"15milion-50milion",
     "detail": {
