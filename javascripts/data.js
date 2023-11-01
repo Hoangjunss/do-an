@@ -93,7 +93,7 @@ var list_products =[{
     "company": "xiaomi",
     "img": "image/xiaomi_11.jpg",
     "price": "15.200.000",
-    "listprice":"10milion-15milion",
+    "listprice":"15milion-50milion",
     "detail": {
         "screen": "AMOLED 1080 x 2400 pixels 2K+ 120Hz",
         "os": "Android 11",
@@ -183,7 +183,7 @@ var list_products =[{
     "company": "vivo",
     "img": "image/Vivo_Y33s.jpg",
     "price": "5.140.000",
-    "listprice":"0-5milion",
+    "listprice":"5milion-10milion",
     "detail": {
         "screen": "IPS LCD FULl HD+",
         "os": "Android 11",
@@ -219,7 +219,7 @@ var list_products =[{
     "company": "vivo",
     "img": "image/vivo-v25-vang-1.jpg",
     "price": "6.990.000",
-    "listprice":"0-5milion",
+    "listprice":"5milion-10milion",
     "detail": {
         "screen": "AMOLED Full HD+",
         "os": "Android 12",
@@ -237,7 +237,7 @@ var list_products =[{
     "company": "vivo",
     "img": "image/vivo-v25-pro-5g-sld-xanh-1.jpg",
     "price": "9.990.000",
-    "listprice":"0-5milion",
+    "listprice":"5milion-10milion",
     "detail": {
         "screen": "AMOLED Full HD+",
         "os": "Android 12",
@@ -255,7 +255,7 @@ var list_products =[{
     "company": "vivo",
     "img": "image/vivo-v27e-tim-1-1.jpg",
     "price": "8.190.000",
-    "listprice":"0-5milion",
+    "listprice":"5milion-10milion",
     "detail": {
         "screen": "AMOLED Full HD+",
         "os": "Android 13",
@@ -273,7 +273,7 @@ var list_products =[{
     "company": "vivo",
     "img": "image/vivo-y36-xanh-glr-1.jpeg",
     "price": "5.790.000",
-    "listprice":"0-5milion",
+    "listprice":"5milion-10milion",
     "detail": {
         "screen": "IPS LCD Full HD+",
         "os": "Android 13",
@@ -361,8 +361,9 @@ var list_products =[{
 {
     "name": "iphone 13 pro max",
     "company": "iphone",
-    "img": "image/iphone-13-pro-max-xanh-la-thumb-600x600.jgp",
+    "img": "image\iphone-13-pro-max-xanh-la-thumb-600x600.jpg",
     "price": "29,490,000đ",
+    "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
         "os": "ios17",
@@ -380,6 +381,7 @@ var list_products =[{
     "company": "iphone",
     "img": "image/ip15promax.jpg",
     "price": "40.990.000đ",
+    "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
         "os": "ios17",
@@ -397,6 +399,7 @@ var list_products =[{
     "company": "iphone",
     "img": "image/ip14promax.jpg",
     "price": "32.990.000đ",
+    "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
         "os": "ios17",
@@ -414,6 +417,7 @@ var list_products =[{
     "company": "iphone",
     "img": "image/ip12promax.jpg",
     "price": "23.490.000đ",
+    "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
         "os": "ios17",
@@ -431,6 +435,7 @@ var list_products =[{
     "company": "iphone",
     "img": "image/ip11promax.jpg",
     "price": "13.690.000đ",
+    "listprice":"10milion-15milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
         "os": "ios17",
@@ -448,6 +453,7 @@ var list_products =[{
     "company": "iphone",
     "img": "image/ipxsmax.jpg",
     "price": "7.990.000đ",
+    "listprice":"5milion-10milion",
     "detail": {
         "screen": "OLED-6.5-Super Retina",
         "os": "ios17",
@@ -465,6 +471,7 @@ var list_products =[{
     "company": "iphone",
     "img": "image/ipse.jpg",
     "price": "9.990.000đ",
+    "listprice":"5milion-10milion",
     "detail": {
         "screen": "IPS LCD4.7 Retina HD",
         "os": "ios17",
@@ -482,6 +489,7 @@ var list_products =[{
     "company": "iphone",
     "img": "image/ipx.jpg",
     "price": "6.190.000đ",
+    "listprice":"5milion-10milion",
     "detail": {
         "screen": "OLED5.8Super Retina",
         "os": "ios16",
@@ -499,6 +507,7 @@ var list_products =[{
     "company": "iphone",
     "img": "image/ip15.jpg",
     "price": "22.990.000đ",
+    "listprice":"15milion-50milion",
     "detail": {
         "screen": "OLED6.1Super Retina XDR",
         "os": "ios17",
@@ -516,6 +525,7 @@ var list_products =[{
     "company": "iphone",
     "img": "image/ip15plus.jpg",
     "price": "33.990.000đ",
+    "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
         "os": "ios17",
@@ -533,6 +543,7 @@ var list_products =[{
     "company": "iphone",
     "img": "image/ip15promax.jpg",
     "price": "36.490.000đ",
+    "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
         "os": "ios17",
@@ -550,6 +561,7 @@ var list_products =[{
     "company": "iphone",
     "img": "image/ip14pro.jpg",
     "price": "32.990.000đ",
+    "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
         "os": "ios17",
