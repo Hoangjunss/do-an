@@ -1,13 +1,13 @@
 const categories = [...new Set(list_products.map((item) => { return item }))]
-console.log(categories);
+
 const displayItem = (items) => {
-    console.log("helooo");
+    
     document.getElementById('root').innerHTML = items.map((item) => {
         var { img, name, price , masp} = item;
         var chitietSp='chitietsanpham.html?' +name.split(' ').join('-');
         console.log(masp);
         return (
-            `<div class='box col-sm-2 mx-sm-3'>
+            `<div class='box col-sm-5'>
             <a href="` + chitietSp + `">
                 <div class='img-box'>
                     <img class='images' src=${img}></img>
@@ -59,8 +59,9 @@ function getsearch(){
     const searchDataprice = document.getElementById('list-price').value.toLowerCase();
     
     const searchDatacompany = document.getElementById('list-company').value.toLowerCase();
-    console.log(searchDatacompany);
+    
     if(searchDatacompany!="company" && searchDataprice!="price"){
+        console.log("1");
         const filteredData = categories.filter((item) => {
             return (
                  item.company.includes(searchDatacompany)&& item.listprice && item.listprice.includes(searchDataprice)
@@ -70,15 +71,16 @@ function getsearch(){
         displayItem(filteredData)
     }else
     if(searchDataprice && searchDatacompany=="company"){
+        console.log("2");
         const filteredData = categories.filter((item) => {
             return (
                item.listprice && item.listprice.includes(searchDataprice)
             )
         })
-        alert("hello");
+        
         displayItem(filteredData)
     }else if(searchDatacompany ){
-        
+        console.log("3");
             const filteredData = categories.filter((item) => {
                 return (
                     item.company.includes(searchDatacompany)

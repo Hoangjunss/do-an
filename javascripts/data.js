@@ -180,7 +180,7 @@ var list_products =[{
 },
 {
     "name": "Vivo Y33",
-    "company": "Vivo",
+    "company": "vivo",
     "img": "image/Vivo_Y33s.jpg",
     "price": "5.140.000",
     "listprice":"0-5milion",
@@ -198,7 +198,7 @@ var list_products =[{
 },
 {
     "name": "Vivo Y17s 4G",
-    "company": "Vivo",
+    "company": "vivo",
     "img": "image/Vivo_Y17s_4G.jpg",
     "price": "3.790.000",
     "listprice":"0-5milion",
@@ -216,7 +216,7 @@ var list_products =[{
 },
 {
     "name": "Vivo V25 5G",
-    "company": "Vivo",
+    "company": "vivo",
     "img": "image/vivo-v25-vang-1.jpg",
     "price": "6.990.000",
     "listprice":"0-5milion",
@@ -234,7 +234,7 @@ var list_products =[{
 },
 {
     "name": "Vivo V25 Pro 5G",
-    "company": "Vivo",
+    "company": "vivo",
     "img": "image/vivo-v25-pro-5g-sld-xanh-1.jpg",
     "price": "9.990.000",
     "listprice":"0-5milion",
@@ -252,7 +252,7 @@ var list_products =[{
 },
 {
     "name": "Vivo V27e",
-    "company": "Vivo",
+    "company": "vivo",
     "img": "image/vivo-v27e-tim-1-1.jpg",
     "price": "8.190.000",
     "listprice":"0-5milion",
@@ -270,7 +270,7 @@ var list_products =[{
 },
 {
     "name": "Vivo Y36",
-    "company": "Vivo",
+    "company": "vivo",
     "img": "image/vivo-y36-xanh-glr-1.jpeg",
     "price": "5.790.000",
     "listprice":"0-5milion",
@@ -288,7 +288,7 @@ var list_products =[{
 },
 {
     "name": "Vivo Y35",
-    "company": "Vivo",
+    "company": "vivo",
     "img": "image/vivo-y35-den-1-1.jpg",
     "price": "4.590.000",
     "listprice":"0-5milion",
@@ -306,7 +306,7 @@ var list_products =[{
 },
 {
     "name": "Vivo Y22s 4GB",
-    "company": "Vivo",
+    "company": "vivo",
     "img": "image/vivo-y22s-vang-1.jpg",
     "price": "3.690.000",
     "listprice":"0-5milion",
@@ -324,7 +324,7 @@ var list_products =[{
 },
 {
     "name": "Vivo Y16",
-    "company": "Vivo",
+    "company": "vivo",
     "img": "image/vivo-y16-vang-1.jpg",
     "price": "2.990.000",
     "listprice":"0-5milion",
@@ -342,7 +342,7 @@ var list_products =[{
 },
 {
     "name": "Vivo Y02T",
-    "company": "Vivo",
+    "company": "vivo",
     "img": "image/vivo-y02t-xanh-tim-1.jpeg",
     "price": "2.990.000",
     "listprice":"0-5milion",
