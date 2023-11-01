@@ -32,7 +32,7 @@ document.getElementById('searchBar').addEventListener('keyup', (e) => {
     })
     displayItem(filteredData)
 });
-function getcompany(){
+/*function getcompany(){
      const searchData = document.getElementById('list-company').value.toLowerCase();
      console.log(searchData);
     
@@ -54,7 +54,7 @@ function getprice(){
     console.log(filteredData);
     displayItem(filteredData)
     
-}
+}*/
 function getsearch(){
     const searchDataprice = document.getElementById('list-price').value.toLowerCase();
     
