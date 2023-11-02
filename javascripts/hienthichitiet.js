@@ -68,8 +68,8 @@ function phanTich_URL_chiTietSanPham() {
 
     
     var info = document.getElementsByClassName('info')[0];
-    var s = addThongSo('Màn hình', sanPhamHienTai.detail.screen);
-    s += addThongSo('Hệ điều hành', sanPhamHienTai.detail.os);
+    var s = addThongSo('Màn hình ', sanPhamHienTai.detail.screen);
+    s += addThongSo('Hệ điều hành ', sanPhamHienTai.detail.os);
     s += addThongSo('Camara sau', sanPhamHienTai.detail.camera);
     s += addThongSo('Camara trước', sanPhamHienTai.detail.camaraFront);
     s += addThongSo('CPU', sanPhamHienTai.detail.cpu);
@@ -92,8 +92,8 @@ function timKiemTheoMa(list, ma) {
     }
 }
 function addThongSo(ten, giatri) {
-    return `<li>
-                <p>` + ten + `</p>
-                <div>` + giatri + `</div>
+    return `<li class='   align row ' >
+                <div class=' d-flex col-sm-3'>` + ten +  `</div>
+                <div class='mx-sm-5 col-sm-6'>` + giatri + `</div>
             </li>`;
 }
