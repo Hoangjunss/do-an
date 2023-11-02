@@ -362,7 +362,7 @@ var list_products =[{
     "name": "Iphone 13 Pro Max",
     "company": "iphone",
     "img": "image/iphone-13-pro-max-xanh-la-thumb-600x600.jpg",
-    "price": "29,490,000đ",
+    "price": "29,490,000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
@@ -380,7 +380,7 @@ var list_products =[{
     "name": "Iphone 15 Pro Max",
     "company": "iphone",
     "img": "image/ip15promax.jpg",
-    "price": "40.990.000đ",
+    "price": "40.990.000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
@@ -398,7 +398,7 @@ var list_products =[{
     "name": "Iphone 14 Pro Max",
     "company": "iphone",
     "img": "image/ip14promax.jpg",
-    "price": "32.990.000đ",
+    "price": "32.990.000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
@@ -416,7 +416,7 @@ var list_products =[{
     "name": "Iphone 12 Pro Max",
     "company": "iphone",
     "img": "image/ip12promax.jpg",
-    "price": "23.490.000đ",
+    "price": "23.490.000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
@@ -434,7 +434,7 @@ var list_products =[{
     "name": "Iphone 11 Pro Max",
     "company": "iphone",
     "img": "image/ip11promax.jpg",
-    "price": "13.690.000đ",
+    "price": "13.690.000",
     "listprice":"10milion-15milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
@@ -452,7 +452,7 @@ var list_products =[{
     "name": "Iphone XS Max",
     "company": "iphone",
     "img": "image/ipxsmax.jpg",
-    "price": "7.990.000đ",
+    "price": "7.990.000",
     "listprice":"5milion-10milion",
     "detail": {
         "screen": "OLED-6.5-Super Retina",
@@ -470,7 +470,7 @@ var list_products =[{
     "name": "Iphone SE Max",
     "company": "iphone",
     "img": "image/ipse.jpg",
-    "price": "9.990.000đ",
+    "price": "9.990.000",
     "listprice":"5milion-10milion",
     "detail": {
         "screen": "IPS LCD4.7 Retina HD",
@@ -488,7 +488,7 @@ var list_products =[{
     "name": "Iphone X",
     "company": "iphone",
     "img": "image/ipx.jpg",
-    "price": "6.190.000đ",
+    "price": "6.190.000",
     "listprice":"5milion-10milion",
     "detail": {
         "screen": "OLED5.8Super Retina",
@@ -506,7 +506,7 @@ var list_products =[{
     "name": "Iphone 15",
     "company": "iphone",
     "img": "image/ip15.jpg",
-    "price": "22.990.000đ",
+    "price": "22.990.000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "OLED6.1Super Retina XDR",
@@ -524,7 +524,7 @@ var list_products =[{
     "name": "Iphone 15 Plus",
     "company": "iphone",
     "img": "image/ip15plus.jpg",
-    "price": "33.990.000đ",
+    "price": "33.990.000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
@@ -542,7 +542,7 @@ var list_products =[{
     "name": "Iphone 15 Pro",
     "company": "iphone",
     "img": "image/ip15promax.jpg",
-    "price": "36.490.000đ",
+    "price": "36.490.000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
@@ -560,7 +560,7 @@ var list_products =[{
     "name": "Iphone 14 Pro",
     "company": "iphone",
     "img": "image/ip14pro.jpg",
-    "price": "32.990.000đ",
+    "price": "32.990.000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
@@ -573,5 +573,186 @@ var list_products =[{
         "battery":"3200 mah"
     },
     "masp": "iphone12"
+},
+{
+"name":"OPPO Find N3 fold",
+"company":"oppo",
+"img":"image/OPPO_Find_N3.png",
+"price":"44.990.000",
+"listprice":"15milion-50milion",
+"detail":{
+    "screen":"AMOLED",
+    "os":"Android 13",
+    "camera":"20MP-32MP",
+    "cameraFront":"48MP-48MP-64MP",
+    "cpu":"Snapdragon 8 Gen 2",
+    "ram":"16 GB",
+    "rom":"512 GB",
+    "battery":"4805 mAh",
+},
+"masp":"oppo1"
+},
+{
+"name":"OPPO Find N3 Flip",
+"company":"oppo",
+"img":"image/oppo-find-n3-flip.jpg",
+"price":"22.990.000",
+"listprice":"15milion-50milion",
+"detail":{
+    "screen":"AMOLED",
+    "os":"Android 13",
+    "camera":"32MP",
+    "cameraFront":"50MP-48MP-32MP",
+    "cpu":"MediaTek Dimensity 9200 5G",
+    "ram":"12 GB",
+    "rom":"256 GB",
+    "battery":"4300 mAh",
+},
+"masp":"oppo2"
+},
+{
+"name":"OPPO Reno10",
+"company":"oppo",
+"img":"image/oppo-reno10.jpg",
+"price":"10.490.000",
+"listprice":"10milion-15milion",
+"detail":{
+    "screen":"AMOLED",
+    "os":"Android 13",
+    "camera":"32MP",
+    "cameraFront":"64MP-32MP-8MP",
+    "cpu":"MediaTek Dimensity 7050 5G",
+    "ram":"8 GB",
+    "rom":"256 GB",
+    "battery":"5000 mAh",
+},
+"masp":"oppo3"
+},
+{
+"name":"OPPO Find N2 Flip",
+"company":"oppo",
+"img":"image/oppofindn2flip.jpg",
+"price":"19.490.000",
+"listprice":"15milion-50milion",
+"detail":{
+    "screen":"AMOLED",
+    "os":"Android 13",
+    "camera":"32MP",
+    "cameraFront":"50MP-8MP",
+    "cpu":"MediaTek Dimensity 9000",
+    "ram":"8 GB",
+    "rom":"256 GB",
+    "battery":"4300 mAh",
+},
+"masp":"oppo4"
+},
+
+{
+"name":"OPPO Find N2 Fold",
+"company":"oppo",
+"img":"image/oppofindn2fold.jpg",
+"price":"30.990.000",
+"listprice":"15milion-50milion",
+"detail":{
+    "screen":"AMOLED",
+    "os":"Android 13",
+    "camera":"32MP",
+    "cameraFront":"50MP-48MP-32MP",
+    "cpu":"Snapdragon 8+ Gen 1",
+    "ram":"12 GB",
+    "rom":"256 GB",
+    "battery":"4520 mAh",
+},
+"masp":"oppo6"
+},
+{
+"name":"OPPO Reno8 5G",
+"company":"oppo",
+"img":"image/oppo-reno8-5g.jpg",
+"price":"11.990.000",
+"listprice":"10milion-15milion",
+"detail":{
+    "screen":"AMOLED",
+    "os":"Android 12",
+    "camera":"32MP",
+    "cameraFront":"50MP-8MP-2MP",
+    "cpu":"MediaTek Dimensity 1300",
+    "ram":"8 GB",
+    "rom":"256 GB",
+    "battery":"4500 mAh",
+},
+"masp":"oppo7"
+},
+{
+"name":"OPPO Reno8 Z",
+"company":"oppo",
+"img":"image/Reno8-Z-5G-specs.png",
+"price":"7.890.000",
+"listprice":"5milion-10milion",
+"detail":{
+    "screen":"AMOLED",
+    "os":"Android 12",
+    "camera":"16MP",
+    "cameraFront":"64MP-2MP-2MP",
+    "cpu":"Snapdragon 695 5G",
+    "ram":"8 GB",
+    "rom":"256 GB",
+    "battery":"4500 mAh",
+},
+"masp":"oppo8"
+},
+{
+"name":"OPPO Reno8",
+"company":"oppo",
+"img":"image/Reno8.png",
+"price":"7.490.000",
+"listprice":"5milion-10milion",
+"detail":{
+    "screen":"AMOLED",
+    "os":"Android 12",
+    "camera":"16MP",
+    "cameraFront":"64MP-2MP-2MP",
+    "cpu":"Qualcomm Snapdragon 680",
+    "ram":"8 GB",
+    "rom":"256 GB",
+    "battery":"4500 mAh",
+},
+"masp":"oppo9"
+},
+{
+"name":"OPPO Reno8 T 5G",
+"company":"oppo",
+"img":"image/oppo-reno8t-5g.jpg",
+"price":"7.890.000",
+"listprice":"5milion-10milion",
+"detail":{
+    "screen":"AMOLED",
+    "os":"Android 12",
+    "camera":"32MP",
+    "cameraFront":"108MP-2MP-2MP",
+    "cpu":"Snapdragon 695 5G 8 nhân",
+    "ram":"8 GB",
+    "rom":"128 GB",
+    "battery":"4800 mAh",
+},
+"masp":"oppo10"
+},
+{
+"name":"OPPO Reno8 T",
+"company":"oppo",
+"img":"image/reno8-t.png",
+"price":"7.090.000",
+"listprice":"5milion-10milion",
+"detail":{
+    "screen":"AMOLED",
+    "os":"Android 12",
+    "camera":"32MP",
+    "cameraFront":"100MP-2MP-2MP",
+    "cpu":"Helio G99",
+    "ram":"8 GB",
+    "rom":"256 GB",
+    "battery":"5000 mAh",
+},
+"masp":"oppo11"
 },
 ]

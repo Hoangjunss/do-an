@@ -10,10 +10,49 @@
             align-items: center;
             font-size: 20px;
         }
+            .text{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+        
      </style>
 </head> 
 <body>
-    <div class="container d-block">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-warning bg-gradient fixed-top mh-100" style="height: 80px;" >
+        <div class="container-fluid">
+          <a class="navbar-brand mx-sm-2 text-primary text " href="javascript:void(0)">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text  " href="javascript:void(0)">introduce</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text " href="javascript:void(0)">apple</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text " href="javascript:void(0)">vivo</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text " href="javascript:void(0)">xiaomi</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text " href="javascript:void(0)">samsung</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text " href="javascript:void(0)">oppo</a>
+              </li>
+            </ul>
+            <form class="d-flex col-sm-4 ms-sm-2 ">
+              <input class="form-control me-2 " id="searchBar" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="container d-block" style="margin-top: 90px;">
         <div class="top row mh-100  " style=" border: 1px solid;">
             <div class="picture col-sm-4 " style="border-right: 1px solid;">
                 <img class="overflow-hidden w-100 img-fluid d-block align-self-lg-center" style="margin: 0; margin-top: 20px;" src="" alt="">
@@ -22,10 +61,32 @@
                 <h1 class="name mt-sm-2 display-1 justify-content-center d-flex text-danger"></h1>
                 <div class="info d-block p-2" style="border: 1px solid;"></div>
                 <div class="price mt-sm-2 justify-content-center d-flex"></div>
-                <button type="button" class="btn btn-outline-warning btn-add-cart my-sm-2" style="margin-left: 42%; font-size: 25px;">Warning</button>
+                <button type="button" class="btn btn-outline-warning btn-add-cart my-sm-2" style="margin-left: 46%; font-size: 25px;">Buy</button>
             </div>
         </div>
-        <div class="footer"></div>
+        <div class="row my-sm-5" style="border: 1px solid lightcyan;">
+            <div class="col-sm-3 mx-sm-4">
+            <p><a href="https://www.facebook.com/shino.chung.39" class="text-uppercase text-decoration-none  ">vũ hoàng chung</a></p>
+            <p><a href="https://www.facebook.com/profile.php?id=100009276486984" class="text-uppercase text-decoration-none" style="color: rgb(246, 36, 89);"> trần đăng khoa</a></p>
+            <p> <a href="https://www.facebook.com/profile.php?id=100025086367192" class="text-uppercase text-decoration-none" style="color: purple;"> nguyễn quốc khánh</a></p>
+            <p><a href="" class="text-uppercase text-decoration-none"> trần quang huy</a></p>  
+              
+             
+              
+            </div>
+            <div class="col-sm-3">
+              <p class="text-uppercase">mssv:3122560007</p>
+              <p class="text-uppercase"> mssv:3122410186</p>
+              <p class="text-uppercase"> mssv:3122410180</p>
+              <p class="text-uppercase"> trần quang huy</p>
+            </div>
+            <div class="col-sm-3">
+              <p class="text-uppercase">sđt:0357628050</p>
+              <p class="text-uppercase"> sđt:0388635899</p>
+              <p class="text-uppercase"> sđt:0931213714</p>
+              <p class="text-uppercase"> trần quang huy</p>
+            </div>
+          </div>
     </div>
     <script src="/javascripts/main.js"></script>
     <script src="/javascripts/data.js"></script>
