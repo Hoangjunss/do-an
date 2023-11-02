@@ -574,4 +574,23 @@ var list_products =[{
     },
     "masp": "iphone12"
 },
+{
+    "name": "",
+    "company": "",
+    "img": "",
+    "price": "",
+    "listprice":"",
+    "detail": {
+        "screen": "Super Retina XDR OLED",
+        "os": "ios17",
+        "camera": "12MP",
+        "cameraFront": "48MP-12MP-12MP",
+        "cpu": "Apple A16 Bionic",
+        "ram": "6 GB",
+        "rom": "512 GB",
+        "battery":"3200 mah"
+    },
+    "masp": "iphone12"
+},
+
 ]
