@@ -370,8 +370,8 @@ var list_products =[{
         "camera": "12MP , f/1.5",
         "cameraFront": "12MP , f/2.8",
         "cpu": "chip A15 Bionic",
-        "ram": "6gb",
-        "rom": "512gb",
+        "ram": "6 GB",
+        "rom": "512 GB",
         "battery":"4352mah"
     },
     "masp": "iphone01"
@@ -388,8 +388,8 @@ var list_products =[{
         "camera": "12MP",
         "cameraFront": "48MP-12MP-12MP",
         "cpu": "chip A17 Pro",
-        "ram": "8gb",
-        "rom": "512gb",
+        "ram": "8 GB",
+        "rom": "512 GB",
         "battery":"4.422 mAh"
     },
     "masp": "iphone02"
@@ -406,8 +406,8 @@ var list_products =[{
         "camera": "12MP",
         "cameraFront": "48MP-12MP-12MP",
         "cpu": "Apple A16 Bionic",
-        "ram": "6gb",
-        "rom": "512gb",
+        "ram": "6 GB",
+        "rom": "512 GB",
         "battery":"4323mah"
     },
     "masp": "iphone03"
@@ -424,8 +424,8 @@ var list_products =[{
         "camera": "12MP",
         "cameraFront": "12MP-12MP-12MP",
         "cpu": "Apple A14 Bionic",
-        "ram": "6gb",
-        "rom": "128GB",
+        "ram": "6 GB",
+        "rom": "128 GB",
         "battery":"3687mah"
     },
     "masp": "iphone04"
@@ -442,8 +442,8 @@ var list_products =[{
         "camera": "12MP",
         "cameraFront": "12MP-12MP-12MP",
         "cpu": "Apple  A13 Bionic",
-        "ram": "4gb",
-        "rom": "256GB",
+        "ram": "4 GB",
+        "rom": "256 GB",
         "battery":"3110mah"
     },
     "masp": "iphone05"
@@ -460,8 +460,8 @@ var list_products =[{
         "camera": "7MP",
         "cameraFront": "12MP-12MP",
         "cpu": "Apple A12 Bionic",
-        "ram": "4gb",
-        "rom": "256GB",
+        "ram": "4 GB",
+        "rom": "256 GB",
         "battery":"3174mah"
     },
     "masp": "iphone06"
@@ -478,8 +478,8 @@ var list_products =[{
         "camera": "7MP",
         "cameraFront": "12MP",
         "cpu": "Apple A12 Bionic",
-        "ram": "4gb",
-        "rom": "256GB",
+        "ram": "4 GB",
+        "rom": "256 GB",
         "battery":"2018mah"
     },
     "masp": "iphone07"
@@ -496,8 +496,8 @@ var list_products =[{
         "camera": "7MP",
         "cameraFront": "12MP-12MP",
         "cpu": "Apple A11 Bionic",
-        "ram": "3gb",
-        "rom": "64GB",
+        "ram": "4 GB",
+        "rom": "64 GB",
         "battery":"2716mah"
     },
     "masp": "iphone08"
@@ -514,8 +514,8 @@ var list_products =[{
         "camera": "12MP",
         "cameraFront": "48MP-12MP",
         "cpu": "Apple A16 Bionic",
-        "ram": "6gb",
-        "rom": "128GB",
+        "ram": "6 GB",
+        "rom": "128 GB",
         "battery":"3349mah"
     },
     "masp": "iphone09"
@@ -532,8 +532,8 @@ var list_products =[{
         "camera": "12MP",
         "cameraFront": "48MP-12MP",
         "cpu": "Apple A16 Bionic",
-        "ram": "6gb",
-        "rom": "512GB",
+        "ram": "6 GB",
+        "rom": "512 GB",
         "battery":"4383mah"
     },
     "masp": "iphone10"
@@ -550,8 +550,8 @@ var list_products =[{
         "camera": "12MP",
         "cameraFront": "48MP-12MP-12MP",
         "cpu": "Apple A16 Bionic",
-        "ram": "6gb",
-        "rom": "512GB",
+        "ram": "6 GB",
+        "rom": "512 GB",
         "battery":"3.349mah"
     },
     "masp": "iphone11"
@@ -568,13 +568,14 @@ var list_products =[{
         "camera": "12MP",
         "cameraFront": "48MP-12MP-12MP",
         "cpu": "Apple A16 Bionic",
-        "ram": "6gb",
-        "rom": "512GB",
+        "ram": "6 GB",
+        "rom": "512 GB",
         "battery":"3200 mah"
     },
     "masp": "iphone12"
 },
 {
+<<<<<<< HEAD
 "name":"OPPO Find N3 fold",
 "company":"oppo",
 "img":"image/OPPO_Find_N3.png",
@@ -755,4 +756,24 @@ var list_products =[{
 },
 "masp":"oppo11"
 },
+=======
+    "name": "",
+    "company": "",
+    "img": "",
+    "price": "",
+    "listprice":"",
+    "detail": {
+        "screen": "Super Retina XDR OLED",
+        "os": "ios17",
+        "camera": "12MP",
+        "cameraFront": "48MP-12MP-12MP",
+        "cpu": "Apple A16 Bionic",
+        "ram": "6 GB",
+        "rom": "512 GB",
+        "battery":"3200 mah"
+    },
+    "masp": "iphone12"
+},
+
+>>>>>>> 09acd887da08fc02ed9ff2eb7f29ca59c4efacb5
 ]
