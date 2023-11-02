@@ -7,14 +7,14 @@ const displayItem = (items) => {
         var chitietSp='chitietsanpham.html?' +name.split(' ').join('-');
         console.log(masp);
         return (
-            `<div class='box col-sm-2'>
-            <a href="` + chitietSp + `">
+            `<div class='box col-sm-2   mx-sm-3 my-sm-2'>
+            <a class='text-decoration-none'href="` + chitietSp + `">
                 <div class='img-box'>
                     <img class='images' src=${img}></img>
                 </div> 
                 <div class='bottom'>
                     <p name='name'>${name}</p>
-                    <h2>$ ${price}.00</h2>
+                    <h2> ${price}đ</h2>
                 <button class='btn'  >Add to cart</button>
                 </div>
             </div>`
