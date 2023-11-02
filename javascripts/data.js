@@ -575,7 +575,7 @@ var list_products =[{
     "masp": "iphone12"
 },
 {
-<<<<<<< HEAD
+
 "name":"OPPO Find N3 fold",
 "company":"oppo",
 "img":"image/OPPO_Find_N3.png",
@@ -756,7 +756,7 @@ var list_products =[{
 },
 "masp":"oppo11"
 },
-=======
+{
     "name": "",
     "company": "",
     "img": "",
@@ -775,5 +775,5 @@ var list_products =[{
     "masp": "iphone12"
 },
 
->>>>>>> 09acd887da08fc02ed9ff2eb7f29ca59c4efacb5
+
 ]
