@@ -4,15 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.cssS">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <style>
+        .box {
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+    border-radius: 5px;
+    padding: 15px;
+}
+.img-box {
+    width: 100%;
+    height: 176px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images {
+    max-height: 90%;
+    max-width: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+.bottom {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+}
+h2 {
+    font-size: 20px;
+    color: orangered;
+}
+button {
+    width: 100%;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    padding: 7px 25px;
+    cursor: pointer;
+    color: white;
+}
+button:hover {
+    background-color: orangered;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.hover:hover img{
+    transform: translateY(-10px);
+}
+    </style>
 </head>
 <body>
-    
+    <div class="container-fluid mh-100 row mx-sm-5 py-sm-5"
+    id="root"></div>
 </body>
+<script src="javascripts/data.js"></script>
 <script>
+    var nameProduct ;
     function phanTich_URL_chiTietSanPham() {
-   var nameProduct = window.location.href.split('?')[1]; 
+    nameProduct = window.location.href.split('?')[1]; 
    nameProduct = nameProduct.split('-').join(' ');
     }
+    phanTich_URL_chiTietSanPham();
+    const categories = [...new Set(list_products.map((item) => { return item }))]
+    console.log(categories)
+    const displayItem = (items) => {
+    
+    document.getElementById('root').innerHTML = items.map((item) => {
+        var { img, name, price , masp} = item;
+        var chitietSp='chitietsanpham.html?' +name.split(' ').join('-');
+        console.log(masp);
+        return (
+            `<div class='box hover col-sm-2   mx-sm-3 my-sm-2' style=' background:white;'>
+            <a class='text-decoration-none'href="` + chitietSp + `">
+                <div class='img-box'>
+                    <img class='images ' src=${img}></img>
+                </div> 
+                <div class='bottom'>
+                    <p name='name'>${name}</p>
+                    <h2> ${price}đ</h2>
+                <button class='btn'  >Add to cart</button>
+                </div>
+            </div>`
+        )
+    }).join('')
+};
+    function getcompany(){
+     
+    console.log(nameProduct)
+     const filteredData = categories.filter((item) => {
+        return (
+            item.company.toLowerCase().includes(nameProduct)
+        )
+    })
+    console.log(filteredData)
+    displayItem(filteredData)
+}
+getcompany();
 </script>
 </html>
