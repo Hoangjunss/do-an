@@ -90,6 +90,7 @@ function getsearch(){
                 )
             })
             console.log(filteredData)
+            displayProductsOnPage(currentPage);
             
            // displayItem(filteredData)
         }else if(searchDataprice && searchDatacompany!="company"&&searchDataram=="ram"){
