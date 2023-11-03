@@ -62,3 +62,6 @@ button:hover {
 ::-webkit-scrollbar {
     display: none;
 }
+.hover:hover img{
+    transform: translateY(-10px);
+}
