@@ -2,6 +2,14 @@ const categories = [...new Set(list_products.map((item) => { return item }))]
 const categoriesale = [...new Set(list_sales.map((item) => { return item }))]
 var filteredDataSale=categoriesale;
 var filteredData=categories;
+var list_random =[];
+function addlist(){
+ for(let i=0;i<20;i++){
+    list_random.push(categories[Math.floor(Math.random()*50)+1])
+ }
+}
+addlist();
+console.log(list_random)
 const itemsPerPage = 5;
 let currentPage = 1;
 
@@ -47,7 +55,29 @@ const displayItemSale = (items) => {
         )
     }).join('')
 };
+const displayItemRandom = (items) => {
+    
+    document.getElementById('root-random').innerHTML = items.map((item) => {
+        var { img, name, price , masp} = item;
+        var chitietSp='chitietsanpham.html?' +name.split(' ').join('-');
+        console.log(masp);
+        return (
+            `<div class='box hover col-sm-2   mx-sm-3 my-sm-2' style=' background:white;'>
+            <a class='text-decoration-none'href="` + chitietSp + `">
+                <div class='img-box'>
+                    <img class='images ' src=${img}></img>
+                </div> 
+                <div class='bottom'>
+                    <p name='name'>${name}</p>
+                    <h2> ${price}đ</h2>
+                <button class='btn'  >Add to cart</button>
+                </div>
+            </div>`
+        )
+    }).join('')
+};
 displayProductsOnPage(currentPage);
+displayProductsOnPageRandom(currentPage);
 
 document.getElementById('searchBar').addEventListener('keyup', (e) => {
     const searchData = e.target.value.toLowerCase();
@@ -88,6 +118,7 @@ function getsearch(){
     
     if(searchDatacompany!="company" && searchDataprice!="price" && searchDataram!="ram"){
         console.log("1");
+        currentPage=1;
          filteredData = categories.filter((item) => {
             return (
                  item.company.includes(searchDatacompany)&& item.listprice && item.listprice.includes(searchDataprice)&& item.detail.ram && item.detail.ram.includes(searchDataram)
@@ -98,6 +129,7 @@ function getsearch(){
     }else
     if(searchDataprice && searchDatacompany=="company"&&searchDataram=="ram"){
         console.log("2");
+        currentPage=1;
          filteredData = categories.filter((item) => {
             return (
                item.listprice && item.listprice.includes(searchDataprice)
@@ -107,6 +139,7 @@ function getsearch(){
         displayProductsOnPage(currentPage);
     }else if(searchDatacompany &&searchDataram=="ram"&&searchDataprice=="price" ){
         console.log("3");
+        currentPage=1;
              filteredData = categories.filter((item) => {
                 return (
                     item.company.includes(searchDatacompany)
@@ -117,6 +150,7 @@ function getsearch(){
             
            // displayItem(filteredData)
         }else if(searchDataprice && searchDatacompany!="company"&&searchDataram=="ram"){
+            currentPage=1;
              filteredData = categories.filter((item) => {
                 return (
                     item.company.includes(searchDatacompany)&& item.listprice && item.listprice.includes(searchDataprice)
@@ -126,6 +160,7 @@ function getsearch(){
             displayProductsOnPage(currentPage);
         }
         else if(searchDataprice=="price" && searchDatacompany=="company"&&searchDataram!="ram"){
+            currentPage=1;
              filteredData = categories.filter((item) => {
                 return (
                     item.detail.ram && item.detail.ram.includes(searchDataram)
@@ -134,6 +169,7 @@ function getsearch(){
             displayProductsOnPage(currentPage);
         }
         else if(searchDataprice!="price" && searchDatacompany=="company"&&searchDataram!="ram"){
+            currentPage=1;
             console.log("price ram")
             console.log(searchDataprice);
             console.log(searchDataram)
@@ -145,6 +181,7 @@ function getsearch(){
             console.log(filteredData)
             displayProductsOnPage(currentPage);
         }else if(searchDataprice=="price" && searchDatacompany!="company"&&searchDataram!="ram"){
+            currentPage=1;
             console.log(5)
              filteredData = categories.filter((item) => {
                 return (
@@ -182,6 +219,13 @@ function displayProductsOnPage(pageNumber) {
     const productsToDisplay = filteredData.slice(startIndex, endIndex);
     displayItem(productsToDisplay);
 }
+function displayProductsOnPageRandom(pageNumber) {
+    
+    const startIndex = (pageNumber - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const productsToDisplay = list_random.slice(startIndex, endIndex);
+    displayItemRandom(productsToDisplay);
+}
 document.getElementById('nextPage').addEventListener('click', () => {
     if (currentPage * itemsPerPage < filteredData.length) {
         currentPage++;
@@ -204,9 +248,31 @@ function updatePaginationButtons() {
     prevPageButton.disabled = currentPage === 1;
     nextPageButton.disabled = currentPage * itemsPerPage >= list_products.length;
 }
+document.getElementById('nextPageSale').addEventListener('click', () => {
+    if (currentPage * itemsPerPage < filteredData.length) {
+        currentPage++;
+        displayProductsOnPageSale(currentPage);
+        updatePaginationButtonsSale();
+    }
+});
+
+document.getElementById('prevPageSale').addEventListener('click', () => {
+    if (currentPage > 1) {
+        currentPage--;
+        displayProductsOnPageSale(currentPage);
+        updatePaginationButtonsSale();
+    }
+});
+function updatePaginationButtonsSale() {
+    const prevPageButton = document.getElementById('prevPageSale');
+    const nextPageButton = document.getElementById('nextPageSale');
+
+    prevPageButton.disabled = currentPage === 1;
+    nextPageButton.disabled = currentPage * itemsPerPage >= categoriesale.length;
+}
 
 // Initialize pagination buttons
-updatePaginationButtons();
+updatePaginationButtonsSale();
 displayProductsOnPageSale(currentPage);
 function displayProductsOnPageSale(pageNumber) {
     
