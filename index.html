@@ -63,23 +63,25 @@
             <option value="0-5milion">5 triệu</option>
             <option value="5milion-10milion">10 triệu</option>
             <option value="10milion-15milion">15 triệu</option>
-<<<<<<< HEAD
             <option value="15milion-50milion">50 triệu</option>
           
-=======
-            <option value="15milion-50milion">15 triệu trở lên</option>
->>>>>>> ac4cf60887d58991a920e34375e1d2100fd6993d
+
         </select>
         <select class="col-sm-3 mx-sm-5 my-sm-4" name="" id="list-ram" onchange="getsearch()">
           <option value="ram">ram</option>
           <option value="4 GB">4 GB</option>
           <option value="6 GB">6 GB</option>
-          <option value="8 GB">8 GB</option>
+          <option value="8 GB">8 
           <option value="12 GB">12 GB</option>
       </select>
       </div>
+ 
       <div class="container-fluid mh-100 row mx-sm-5"
       id="root"></div>
+      <div class="pagination justify-content-center">
+        <button class="w-25 mx-sm-5" id="prevPage">Previous</button>
+        <button class="w-25 mx-sm-5" id="nextPage">Next</button>
+    </div>
       <div class="row my-sm-5" style="border: 1px solid lightcyan; background:white;">
         <div class="col-sm-3 mx-sm-4">
         <p><a href="https://www.facebook.com/shino.chung.39" class="text-uppercase text-decoration-none  ">vũ hoàng chung</a></p>
@@ -103,6 +105,7 @@
           <p class="text-uppercase"> trần quang huy</p>
         </div>
       </div>
+    
       <script src="javascripts/data.js"></script>
       <script src="javascripts/seaarch.js"></script>
         <script>
@@ -133,6 +136,7 @@
             if(index==4) index = 0;
         }
         setInterval(changeImge,2000);
+       
         </script>
 </body>
 </html>
