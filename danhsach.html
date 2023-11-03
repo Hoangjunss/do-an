@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <style>
+        body{
+          background: #f3f3f3; 
+        }
         .box {
     margin: 1px;
     display: flex;
@@ -65,8 +68,76 @@ button:hover {
     </style>
 </head>
 <body>
-    <div class="container-fluid mh-100 row mx-sm-5 py-sm-5"
-    id="root"></div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-warning bg-gradient fixed-top mh-100" style="height: 80px;  background:white;" >
+        <div class="container-fluid">
+          <a class="navbar-brand mx-sm-2 text-primary text " href="javascript:void(0)">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text  " href="javascript:void(0)">introduce</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text " href="danhsach.html?iphone">apple</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text " href="danhsach.html?vivo">vivo</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text " href="danhsach.html?xiaomi">xiaomi</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text " href="danhsach.html?samsung">samsung</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text " href="danhsach.html?oppo">oppo</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text " href="signup.html">Đăng Kí</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link text-primary text " href="signin.html">Đăng nhập</a>
+              </li>
+            </ul>
+            <form class="d-flex col-sm-4 ms-sm-2 ">
+              <input class="form-control me-2 " id="searchBar" type="text" placeholder="Search">
+              <button class="btn btn-primary" style="max-width: 70px;" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="rounded-3 align-content-end bg-danger  " style=" margin-top: 80px; background: #ff685f;">
+        <div class="w-75 justify-content-center py-sm-4  rounded-4" style="margin-left: 40%; ">
+          <p class="display-2" style="color: #f3f3f3;">SẢN PHẨM</p>
+        </div>
+        <div class="container-fluid mh-100 row mx-sm-5 py-sm-3"
+      id="root"></div>
+      </div>
+      <div class="row my-sm-5" style="border: 1px solid lightcyan; background:white;">
+        <div class="col-sm-3 mx-sm-4">
+        <p><a href="https://www.facebook.com/shino.chung.39" class="text-uppercase text-decoration-none  ">vũ hoàng chung</a></p>
+        <p><a href="https://www.facebook.com/profile.php?id=100009276486984" class="text-uppercase text-decoration-none" style="color: rgb(246, 36, 89);"> trần đăng khoa</a></p>
+        <p> <a href="https://www.facebook.com/profile.php?id=100025086367192" class="text-uppercase text-decoration-none" style="color: purple;"> nguyễn quốc khánh</a></p>
+        <p><a href="" class="text-uppercase text-decoration-none"> trần quang huy</a></p>  
+          
+         
+          
+        </div>
+        <div class="col-sm-3" style="color: #7e7e7e;">
+          <p class="text-uppercase">mssv:3122560007</p>
+          <p class="text-uppercase"> mssv:3122410186</p>
+          <p class="text-uppercase"> mssv:3122410180</p>
+          <p class="text-uppercase"> trần quang huy</p>
+        </div>
+        <div class="col-sm-3" style="color: #000;">
+          <p class="text-uppercase">sđt:0357628050</p>
+          <p class="text-uppercase"> sđt:0388635899</p>
+          <p class="text-uppercase"> sđt:0931213714</p>
+          <p class="text-uppercase"> trần quang huy</p>
+        </div>
+      </div>
 </body>
 <script src="javascripts/data.js"></script>
 <script>
@@ -99,16 +170,28 @@ button:hover {
         )
     }).join('')
 };
+const itemsPerPage = 10;
+let currentPage = 1;
+var filteredData=[];
+
+function displayProductsOnPage(pageNumber) {
+    
+    const startIndex = (pageNumber - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const productsToDisplay = filteredData.slice(startIndex, endIndex);
+    console.log(productsToDisplay)
+    displayItem(productsToDisplay);
+}
     function getcompany(){
      
     console.log(nameProduct)
-     const filteredData = categories.filter((item) => {
+      filteredData = categories.filter((item) => {
         return (
             item.company.toLowerCase().includes(nameProduct)
         )
     })
     console.log(filteredData)
-    displayItem(filteredData)
+    displayProductsOnPage(currentPage)
 }
 getcompany();
 </script>

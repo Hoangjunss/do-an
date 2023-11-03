@@ -281,4 +281,26 @@ function displayProductsOnPageSale(pageNumber) {
     const productsToDisplay = filteredDataSale.slice(startIndex, endIndex);
     displayItemSale(productsToDisplay);
 }
+document.getElementById('nextPageRandom').addEventListener('click', () => {
+    if (currentPage * itemsPerPage < filteredData.length) {
+        currentPage++;
+        displayProductsOnPageRandom(currentPage);
+        updatePaginationButtonsRandom();
+    }
+});
 
+document.getElementById('prevPageRandom').addEventListener('click', () => {
+    if (currentPage > 1) {
+        currentPage--;
+        displayProductsOnPageRandom(currentPage);
+        updatePaginationButtonsRandom();
+    }
+});
+function updatePaginationButtonsRandom() {
+    const prevPageButton = document.getElementById('prevPageSale');
+    const nextPageButton = document.getElementById('nextPageSale');
+
+    prevPageButton.disabled = currentPage === 1;
+    nextPageButton.disabled = currentPage * itemsPerPage >= list_random.length;
+}
+updatePaginationButtonsRandom();
