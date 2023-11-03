@@ -975,3 +975,293 @@ var list_products =[{
 },
 
 ]
+var list_sales=[
+    {
+        "name": "Xiaomi 13",
+        "company": "xiaomi",
+        "img": "image/xiaomi_13.jpg",
+        "price": "16.990.000",
+        "listprice":"10milion-15milion",
+        "detail": {
+            "screen": "AMOLED 1080 x 2400 pixels (FULL HD+)",
+            "os": "Android 13",
+            "camera": "32 MP",
+            "camaraFront": "50 MP",
+            "cpu": "Snapdragon 8 Gen 2 8 Nhân",
+            "ram": "8 GB",
+            "rom": "256 GB",
+            "battery": "4500 mAh"
+        },
+        "masp":"xiao01"  
+    },
+    {
+        "name":"Samsung Galaxy S21 FE",
+        "company":"samsung",
+        "img":"image/Samsung-Galaxy-S21-FE-5G.jpg",
+        "price":"9.900.000đ",
+        "listprice":"5milion-10milion",
+        "detail":{
+            "screen":"Dynamic AMOLED 2X",
+            "os":"Android 12",
+            "camera":"32MP",
+            "cameraFront":"12MP-8MP-12MP",
+            "cpu":"Exynos 2100",
+            "ram":"8 GB",
+            "rom":"128 GB",
+            "battery":"4.500 mAh",
+        },
+        "masp":"samsung11"
+    },
+    {
+        "name":"OPPO Reno8 T",
+        "company":"oppo",
+        "img":"image/reno8-t.png",
+        "price":"7.090.000",
+        "listprice":"5milion-10milion",
+        "detail":{
+            "screen":"AMOLED",
+            "os":"Android 12",
+            "camera":"32MP",
+            "cameraFront":"100MP-2MP-2MP",
+            "cpu":"Helio G99",
+            "ram":"8 GB",
+            "rom":"256 GB",
+            "battery":"5000 mAh",
+        },
+        "masp":"oppo11"
+    },
+    {
+            "name": "Iphone 14 Pro",
+            "company": "iphone",
+            "img": "image/ip14pro.jpg",
+            "price": "32.990.000",
+            "listprice":"15milion-50milion",
+            "detail": {
+                "screen": "Super Retina XDR OLED",
+                "os": "ios17",
+                "camera": "12MP",
+                "cameraFront": "48MP-12MP-12MP",
+                "cpu": "Apple A16 Bionic",
+                "ram": "6 GB",
+                "rom": "512 GB",
+                "battery":"3200 mah"
+            },
+            "masp": "iphone12"
+    },
+    {
+        "name":"OPPO Reno8 5G",
+        "company":"oppo",
+        "img":"image/oppo-reno8-5g.jpg",
+        "price":"11.990.000",
+        "listprice":"10milion-15milion",
+        "detail":{
+            "screen":"AMOLED",
+            "os":"Android 12",
+            "camera":"32MP",
+            "cameraFront":"50MP-8MP-2MP",
+            "cpu":"MediaTek Dimensity 1300",
+            "ram":"8 GB",
+            "rom":"256 GB",
+            "battery":"4500 mAh",
+        },
+        "masp":"oppo7"
+    },
+    {
+        "name": "Vivo Y17s 4G",
+        "company": "vivo",
+        "img": "image/Vivo_Y17s_4G.jpg",
+        "price": "3.790.000",
+        "listprice":"0-5milion",
+        "detail": {
+            "screen": "IPS LCD HD+",
+            "os": "Android 11",
+            "camera": "Chính 50 MP & Phụ 2 MP",
+            "cameraFront": "8 MP",
+            "cpu": "MediaTek Helio G85 8 nhân",
+            "ram": "4 GB",
+            "rom": "128 GB",
+            "battery":"5000mAh"
+        },
+        "masp": "vivo02"
+    },    
+    {
+        "name":"OPPO Find N2 Fold",
+        "company":"oppo",
+        "img":"image/oppofindn2fold.jpg",
+        "price":"30.990.000",
+        "listprice":"15milion-50milion",
+        "detail":{
+            "screen":"AMOLED",
+            "os":"Android 13",
+            "camera":"32MP",
+            "cameraFront":"50MP-48MP-32MP",
+            "cpu":"Snapdragon 8+ Gen 1",
+            "ram":"12 GB",
+            "rom":"256 GB",
+            "battery":"4520 mAh",
+        },
+        "masp":"oppo6"
+    },
+    {
+        "name": "Iphone 11 Pro Max",
+        "company": "iphone",
+        "img": "image/ip11promax.jpg",
+        "price": "13.690.000",
+        "listprice":"10milion-15milion",
+        "detail": {
+            "screen": "Super Retina XDR OLED",
+            "os": "ios17",
+            "camera": "12MP",
+            "cameraFront": "12MP-12MP-12MP",
+            "cpu": "Apple  A13 Bionic",
+            "ram": "4 GB",
+            "rom": "256 GB",
+            "battery":"3110mah"
+        },
+        "masp": "iphone05"
+    },
+    {
+        "name":"Samsung Galaxy A05S",
+        "company":"samsung",
+        "img":"image/Samsung-Galaxy-A05S.jpg",
+        "price":"3.890.000đ",
+        "listprice":"0milion-5milion",
+        "detail":{
+            "screen":"IPS LCD",
+            "os":"Android 12",
+            "camera":"13MP",
+            "cameraFront":"50MP-2MP-2MP",
+            "cpu":"Exynos 2100",
+            "ram":"8 GB",
+            "rom":"128 GB",
+            "battery":"5.000 mAh",
+        },
+        "masp":"samsung12"
+    },
+    {
+        "name": "Iphone X",
+        "company": "iphone",
+        "img": "image/ipx.jpg",
+        "price": "6.190.000",
+        "listprice":"5milion-10milion",
+        "detail": {
+            "screen": "OLED5.8Super Retina",
+            "os": "ios16",
+            "camera": "7MP",
+            "cameraFront": "12MP-12MP",
+            "cpu": "Apple A11 Bionic",
+            "ram": "4 GB",
+            "rom": "64 GB",
+            "battery":"2716mah"
+        },
+        "masp": "iphone08"
+    },
+    {
+        "name":"Samsung Galaxy S23 Ultra",
+        "company":"samsung",
+        "img":"image/samsung-galaxy-s23-ultra.jpg",
+        "price":"32.990.000đ",
+        "listprice":"15milion-50milion",
+        "detail":{
+            "screen":"Dynamic AMOLED 2X",
+            "os":"Android 13",
+            "camera":"12MP",
+            "cameraFront":"12MP-10MP-10MP",
+            "cpu":"Snapdragon 8 Gen 2",
+            "ram":"12 GB",
+            "rom":"1 TB",
+            "battery":"5000 mAh",
+        },
+        "masp":"samsung1"
+    },
+    {
+        "name":"Samsung Galaxy m14",
+        "company":"samsung",
+        "img":"image/samsung-galaxy-m14.jpg",
+        "price":"3.850.000đ",
+        "listprice":"0milion-5milion",
+        "detail":{
+            "screen":"PLS LCD",
+            "os":"Android 13",
+            "camera":"13MP",
+            "cameraFront":"50MP-2MP-2MP",
+            "cpu":"Exynos 1330",
+            "ram":"4 GB",
+            "rom":"128 GB",
+            "battery":"6.000 mAh",
+        },
+        "masp":"samsung9"
+    },
+    {
+        "name":"Samsung Galaxy A34",
+        "company":"samsung",
+        "img":"image/Samsung-Galaxy-A34.jpg",
+        "price":"7.100.000đ",
+        "listprice":"10milion-15milion",
+        "detail":{
+            "screen":"Super AMOLED",
+            "os":"Android 13",
+            "camera":"13MP",
+            "cameraFront":"48MP-8MP-5MP",
+            "cpu":"Dimensity 1080",
+            "ram":"8 GB",
+            "rom":"128 GB",
+            "battery":"5.000 mAh",
+        },
+        "masp":"samsung7"
+    },
+    {
+        "name": "Xiaomi 12S",
+        "company": "xiaomi",
+        "img": "image/xiaomi_12s.jpg",
+        "price": "10.950.000",
+        "listprice":"10milion-15milion",
+        "detail": {
+            "screen": "AMOLED 1080 x 2400 pixels (FULL HD+)",
+            "os": "Android 12",
+            "camera": "32 MP",
+            "camaraFront": "50 MP",
+            "cpu": "Snapdragon 8+ Gen 1 8 Nhân",
+            "ram": "8 GB",
+            "rom": "128 GB",
+            "battery": "4500 mAh"
+        },
+        "masp":"xiao02"
+    },
+    {
+        "name": "Xiaomi Redmi 10",
+        "company": "xiaomi",
+        "img": "image/xiaomi_redmi10.jpg",
+        "price": "3.490.000",
+        "listprice":"0-5milion",
+        "detail": {
+            "screen": "IPS LCD Full HD+ 90Hz)",
+            "os": "Android 11",
+            "camera": "8 MP",
+            "camaraFront": "50 MP",
+            "cpu": "MediaTek Helio G88 8 Nhân",
+            "ram": "6 GB",
+            "rom": "128 GB",
+            "battery": "5000 mAh"
+        },
+        "masp":"xiao08"
+    },
+    {
+        "name": "Iphone 15 Pro",
+        "company": "iphone",
+        "img": "image/ip15promax.jpg",
+        "price": "36.490.000",
+        "listprice":"15milion-50milion",
+        "detail": {
+            "screen": "Super Retina XDR OLED",
+            "os": "ios17",
+            "camera": "12MP",
+            "cameraFront": "48MP-12MP-12MP",
+            "cpu": "Apple A16 Bionic",
+            "ram": "6 GB",
+            "rom": "512 GB",
+            "battery":"3.349mah"
+        },
+        "masp": "iphone11"
+    },
+]

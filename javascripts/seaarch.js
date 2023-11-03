@@ -1,4 +1,6 @@
 const categories = [...new Set(list_products.map((item) => { return item }))]
+const categoriesale = [...new Set(list_sales.map((item) => { return item }))]
+var filteredDataSale=categoriesale;
 var filteredData=categories;
 const itemsPerPage = 5;
 let currentPage = 1;
@@ -6,6 +8,27 @@ let currentPage = 1;
 const displayItem = (items) => {
     
     document.getElementById('root').innerHTML = items.map((item) => {
+        var { img, name, price , masp} = item;
+        var chitietSp='chitietsanpham.html?' +name.split(' ').join('-');
+        console.log(masp);
+        return (
+            `<div class='box hover col-sm-2   mx-sm-3 my-sm-2' style=' background:white;'>
+            <a class='text-decoration-none'href="` + chitietSp + `">
+                <div class='img-box'>
+                    <img class='images ' src=${img}></img>
+                </div> 
+                <div class='bottom'>
+                    <p name='name'>${name}</p>
+                    <h2> ${price}đ</h2>
+                <button class='btn'  >Add to cart</button>
+                </div>
+            </div>`
+        )
+    }).join('')
+};
+const displayItemSale = (items) => {
+    
+    document.getElementById('root-sale').innerHTML = items.map((item) => {
         var { img, name, price , masp} = item;
         var chitietSp='chitietsanpham.html?' +name.split(' ').join('-');
         console.log(masp);
@@ -184,4 +207,12 @@ function updatePaginationButtons() {
 
 // Initialize pagination buttons
 updatePaginationButtons();
+displayProductsOnPageSale(currentPage);
+function displayProductsOnPageSale(pageNumber) {
+    
+    const startIndex = (pageNumber - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const productsToDisplay = filteredDataSale.slice(startIndex, endIndex);
+    displayItemSale(productsToDisplay);
+}
 
