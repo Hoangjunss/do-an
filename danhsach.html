@@ -6,6 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
         body{
           background: #f3f3f3; 
         }
@@ -108,6 +112,25 @@ button:hover {
           </div>
         </div>
       </nav>
+      <div class=" mh-100 ms-sm-5 " style="height: 80px; margin-top: 200px; margin: 50px; border: 1px solid ;background:white;">
+        
+        <select class="col-sm-3 mx-sm-5 my-sm-4" name="" id="list-price" onchange="getsearch()">
+            <option value="price">price</option>
+            <option value="0-5milion">5 triệu</option>
+            <option value="5milion-10milion">10 triệu</option>
+            <option value="10milion-15milion">15 triệu</option>
+            <option value="15milion-50milion">50 triệu</option>
+          
+
+        </select>
+        <select class="col-sm-3 mx-sm-5 my-sm-4" name="" id="list-ram" onchange="getsearch()">
+          <option value="ram">ram</option>
+          <option value="4 GB">4 GB</option>
+          <option value="6 GB">6 GB</option>
+          <option value="8 GB">8 GB</option>
+          <option value="12 GB">12 GB</option>
+      </select>
+      </div>
       <div class="rounded-3 align-content-end bg-danger  " style=" margin-top: 80px; background: #ff685f;">
         <div class="w-75 justify-content-center py-sm-4  rounded-4" style="margin-left: 40%; ">
           <p class="display-2" style="color: #f3f3f3;">SẢN PHẨM</p>
