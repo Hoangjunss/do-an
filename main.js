@@ -25,20 +25,26 @@ function login(){
        var pass=inputpassreg.value;
        var user=new User(username,pass);
        var listUser=getListUser();
+       var check=false;
        for(var u of listUser){
         if(equalUser(user,u)){
             setCurrentUser(u);
-            return false;
+            check=true;
         }
         
        }
-       alert("vui long đăng nhập lại")
-            inputpassreg.focus();
+       if(check){
+        window.location.href="index.html"
+        alert("đăng nhập thành công");
+       } else {
+        alert("vui long đăng nhập lại")
+        inputpassreg.focus();
+       }
+       
 
 }
  function getuser(){
     var ho = inputname.value;
-    console.log(ho);
     var ten = inputfull.value;
     var email = inputemail.value;
     var username = inputusername.value;
@@ -59,7 +65,7 @@ function login(){
             alert("Vui lòng nhập pass!");
             return false;
             }
-            if(email == "") {
+         if(email == "") {
                 alert("Vui lòng nhập email!");
                 return false;
                 }
@@ -70,10 +76,14 @@ function login(){
         if(user.username==u.username){
             alert("tên có người đăng nhập");
             return false;
-        }
+        } 
     }
+   
     listUser.push(user);
+    
     window.localStorage.setItem('ListUser',JSON.stringify(listUser));
+   alert("vui long an vào đăng nhạp")
+    
  }
  var list=getListUser();
  console.log(list);
