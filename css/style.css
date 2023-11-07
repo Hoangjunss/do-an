@@ -2,6 +2,11 @@
     text-transform: uppercase;
     font-size: 20px;
 }
+.text-1{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+}
 .nav-link:hover{
     opacity: 0.8;
 }
