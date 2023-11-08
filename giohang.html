@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <style>
+      body{
+        background-color: #eee;
+      }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-warning bg-gradient fixed-top mh-100 d-block" style="  background:white;" >
@@ -53,12 +58,19 @@
           </div>
          
         </nav>
-    <div class="container">
-        <div class="top">
+    <div class="container" style="margin-top: 10%;">
+      <div class="d-flex justify-content-center align-items-center">
+        <h1>cart</h1>
+      </div>
             <div class="content-cart">
                <div class="list-cart"></div> 
             </div>
-        </div>
+            <div class="container  d-flex card d-flex  align-items-center ">
+              <h1>Tổng Tiền</h1>
+              <p class="price fs-4"></p>
+            </div>
+    </div>
+   
         <div class="footer"></div>
         <script src="javascripts/data.js"></script>
         <script src="main.js"></script>

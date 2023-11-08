@@ -2,7 +2,7 @@ var list_products =[{
     "name": "Xiaomi 13",
     "company": "xiaomi",
     "img": "image/xiaomi_13.jpg",
-    "price": "16.990.000",
+    "price": "16990000",
     "listprice":"10milion-15milion",
     "detail": {
         "screen": "AMOLED 1080 x 2400 pixels (FULL HD+)",
@@ -20,7 +20,7 @@ var list_products =[{
     "name": "Xiaomi 12S",
     "company": "xiaomi",
     "img": "image/xiaomi_12s.jpg",
-    "price": "10.950.000",
+    "price": "10950000",
     "listprice":"10milion-15milion",
     "detail": {
         "screen": "AMOLED 1080 x 2400 pixels (FULL HD+)",
@@ -38,7 +38,7 @@ var list_products =[{
     "name": "Xiaomi 12S Ultra",
     "company": "xiaomi",
     "img": "image/xiaomi12s_ultra.jpg",
-    "price": "14.950.000",
+    "price": "14950000",
     "listprice":"10milion-15milion",
     "detail": {
         "screen": "AMOLED LTPO 2.0 (FULL HD+)",
@@ -56,7 +56,7 @@ var list_products =[{
     "name": "Xiaomi 12",
     "company": "xiaomi",
     "img": "image/xiaomi_12.jpg",
-    "price": "10.990.000",
+    "price": "10990000",
     "listprice":"10milion-15milion",
     "detail": {
         "screen": "AMOLED 1080 x 2400 pixels (FULL HD+)",
@@ -74,7 +74,7 @@ var list_products =[{
     "name": "Xiaomi 12X",
     "company": "xiaomi",
     "img": "image/xiaomi_12x.jpg",
-    "price": "10.950.000",
+    "price": "10950000",
     "listprice":"10milion-15milion",
     "detail": {
         "screen": "AMOLED 1080 x 2400 pixels (FULL HD+)",
@@ -92,7 +92,7 @@ var list_products =[{
     "name": "Xiaomi 11",
     "company": "xiaomi",
     "img": "image/xiaomi_11.jpg",
-    "price": "15.200.000",
+    "price": "15200000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "AMOLED 1080 x 2400 pixels 2K+ 120Hz",
@@ -110,7 +110,7 @@ var list_products =[{
     "name": "Xiaomi 11 T Pro",
     "company": "xiaomi",
     "img": "image/xiaomi_11tpro.jpg",
-    "price": "11.990.000",
+    "price": "11990000",
     "listprice":"10milion-15milion",
     "detail": {
         "screen": "AMOLED FULL HD+ 120Hz",
@@ -128,7 +128,7 @@ var list_products =[{
     "name": "Xiaomi Redmi 10",
     "company": "xiaomi",
     "img": "image/xiaomi_redmi10.jpg",
-    "price": "3.490.000",
+    "price": "3490000",
     "listprice":"0-5milion",
     "detail": {
         "screen": "IPS LCD Full HD+ 90Hz)",
@@ -146,7 +146,7 @@ var list_products =[{
     "name": "Xiaomi Mi 10T Pro",
     "company": "xiaomi",
     "img": "image/xiaomi_mi_10tpro.jpg",
-    "price": "11.200.000",
+    "price": "11200000",
     "listprice":"10milion-15milion",
     "detail": {
         "screen": "IPS LCD Full HD+ 144Hz)",
@@ -164,7 +164,7 @@ var list_products =[{
     "name": "Xiaomi Mi 11 Ultra",
     "company": "xiaomi",
     "img": "image/xiaomi_mi_11ultra.jpg",
-    "price": "9.090.000",
+    "price": "9090000",
     "listprice":"5milion-10milion",
     "detail": {
         "screen": "AMOLED 2K+ ",
@@ -182,7 +182,7 @@ var list_products =[{
     "name": "Vivo Y33",
     "company": "vivo",
     "img": "image/Vivo_Y33s.jpg",
-    "price": "5.140.000",
+    "price": "5140000",
     "listprice":"5milion-10milion",
     "detail": {
         "screen": "IPS LCD FULl HD+",
@@ -200,7 +200,7 @@ var list_products =[{
     "name": "Vivo Y17s 4G",
     "company": "vivo",
     "img": "image/Vivo_Y17s_4G.jpg",
-    "price": "3.790.000",
+    "price": "3790000",
     "listprice":"0-5milion",
     "detail": {
         "screen": "IPS LCD HD+",
@@ -218,7 +218,7 @@ var list_products =[{
     "name": "Vivo V25 5G",
     "company": "vivo",
     "img": "image/vivo-v25-vang-1.jpg",
-    "price": "6.990.000",
+    "price": "6990000",
     "listprice":"5milion-10milion",
     "detail": {
         "screen": "AMOLED Full HD+",
@@ -236,7 +236,7 @@ var list_products =[{
     "name": "Vivo V25 Pro 5G",
     "company": "vivo",
     "img": "image/vivo-v25-pro-5g-sld-xanh-1.jpg",
-    "price": "9.990.000",
+    "price": "9990000",
     "listprice":"5milion-10milion",
     "detail": {
         "screen": "AMOLED Full HD+",
@@ -254,7 +254,7 @@ var list_products =[{
     "name": "Vivo V27e",
     "company": "vivo",
     "img": "image/vivo-v27e-tim-1-1.jpg",
-    "price": "8.190.000",
+    "price": "8190000",
     "listprice":"5milion-10milion",
     "detail": {
         "screen": "AMOLED Full HD+",
@@ -272,7 +272,7 @@ var list_products =[{
     "name": "Vivo Y36",
     "company": "vivo",
     "img": "image/vivo-y36-xanh-glr-1.jpeg",
-    "price": "5.790.000",
+    "price": "5790000",
     "listprice":"5milion-10milion",
     "detail": {
         "screen": "IPS LCD Full HD+",
@@ -290,7 +290,7 @@ var list_products =[{
     "name": "Vivo Y35",
     "company": "vivo",
     "img": "image/vivo-y35-den-1-1.jpg",
-    "price": "4.590.000",
+    "price": "4590000",
     "listprice":"0-5milion",
     "detail": {
         "screen": "IPS LCD Full HD+",
@@ -308,7 +308,7 @@ var list_products =[{
     "name": "Vivo Y22s 4GB",
     "company": "vivo",
     "img": "image/vivo-y22s-vang-1.jpg",
-    "price": "3.690.000",
+    "price": "3690000",
     "listprice":"0-5milion",
     "detail": {
         "screen": "IPS LCD Full HD+",
@@ -326,7 +326,7 @@ var list_products =[{
     "name": "Vivo Y16",
     "company": "vivo",
     "img": "image/vivo-y16-vang-1.jpg",
-    "price": "2.990.000",
+    "price": "2990000",
     "listprice":"0-5milion",
     "detail": {
         "screen": "IPS LCD HD+",
@@ -344,7 +344,7 @@ var list_products =[{
     "name": "Vivo Y02T",
     "company": "vivo",
     "img": "image/vivo-y02t-xanh-tim-1.jpeg",
-    "price": "2.990.000",
+    "price": "2990000",
     "listprice":"0-5milion",
     "detail": {
         "screen": "IPS LCD HD+",
@@ -380,7 +380,7 @@ var list_products =[{
     "name": "Iphone 15 Pro Max",
     "company": "iphone",
     "img": "image/ip15promax.jpg",
-    "price": "40.990.000",
+    "price": "40990000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
@@ -398,7 +398,7 @@ var list_products =[{
     "name": "Iphone 14 Pro Max",
     "company": "iphone",
     "img": "image/ip14promax.jpg",
-    "price": "32.990.000",
+    "price": "32990000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
@@ -416,7 +416,7 @@ var list_products =[{
     "name": "Iphone 12 Pro Max",
     "company": "iphone",
     "img": "image/ip12promax.jpg",
-    "price": "23.490.000",
+    "price": "23490000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
@@ -434,7 +434,7 @@ var list_products =[{
     "name": "Iphone 11 Pro Max",
     "company": "iphone",
     "img": "image/ip11promax.jpg",
-    "price": "13.690.000",
+    "price": "13690000",
     "listprice":"10milion-15milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
@@ -452,7 +452,7 @@ var list_products =[{
     "name": "Iphone XS Max",
     "company": "iphone",
     "img": "image/ipxsmax.jpg",
-    "price": "7.990.000",
+    "price": "7990000",
     "listprice":"5milion-10milion",
     "detail": {
         "screen": "OLED-6.5-Super Retina",
@@ -470,7 +470,7 @@ var list_products =[{
     "name": "Iphone SE Max",
     "company": "iphone",
     "img": "image/ipse.jpg",
-    "price": "9.990.000",
+    "price": "9990000",
     "listprice":"5milion-10milion",
     "detail": {
         "screen": "IPS LCD4.7 Retina HD",
@@ -488,7 +488,7 @@ var list_products =[{
     "name": "Iphone X",
     "company": "iphone",
     "img": "image/ipx.jpg",
-    "price": "6.190.000",
+    "price": "6190000",
     "listprice":"5milion-10milion",
     "detail": {
         "screen": "OLED5.8Super Retina",
@@ -506,7 +506,7 @@ var list_products =[{
     "name": "Iphone 15",
     "company": "iphone",
     "img": "image/ip15.jpg",
-    "price": "22.990.000",
+    "price": "22990000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "OLED6.1Super Retina XDR",
@@ -524,7 +524,7 @@ var list_products =[{
     "name": "Iphone 15 Plus",
     "company": "iphone",
     "img": "image/ip15plus.jpg",
-    "price": "33.990.000",
+    "price": "33990000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
@@ -542,7 +542,7 @@ var list_products =[{
     "name": "Iphone 15 Pro",
     "company": "iphone",
     "img": "image/ip15promax.jpg",
-    "price": "36.490.000",
+    "price": "36490000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
@@ -560,7 +560,7 @@ var list_products =[{
     "name": "Iphone 14 Pro",
     "company": "iphone",
     "img": "image/ip14pro.jpg",
-    "price": "32.990.000",
+    "price": "32990000",
     "listprice":"15milion-50milion",
     "detail": {
         "screen": "Super Retina XDR OLED",
@@ -579,7 +579,7 @@ var list_products =[{
 "name":"OPPO Find N3 fold",
 "company":"oppo",
 "img":"image/OPPO_Find_N3.png",
-"price":"44.990.000",
+"price":"44990000",
 "listprice":"15milion-50milion",
 "detail":{
     "screen":"AMOLED",
@@ -597,7 +597,7 @@ var list_products =[{
 "name":"OPPO Find N3 Flip",
 "company":"oppo",
 "img":"image/oppo-find-n3-flip.jpg",
-"price":"22.990.000",
+"price":"22990000",
 "listprice":"15milion-50milion",
 "detail":{
     "screen":"AMOLED",
@@ -615,7 +615,7 @@ var list_products =[{
 "name":"OPPO Reno10",
 "company":"oppo",
 "img":"image/oppo-reno10.jpg",
-"price":"10.490.000",
+"price":"10490000",
 "listprice":"10milion-15milion",
 "detail":{
     "screen":"AMOLED",
@@ -633,7 +633,7 @@ var list_products =[{
 "name":"OPPO Find N2 Flip",
 "company":"oppo",
 "img":"image/oppofindn2flip.jpg",
-"price":"19.490.000",
+"price":"19490000",
 "listprice":"15milion-50milion",
 "detail":{
     "screen":"AMOLED",
@@ -652,7 +652,7 @@ var list_products =[{
 "name":"OPPO Find N2 Fold",
 "company":"oppo",
 "img":"image/oppofindn2fold.jpg",
-"price":"30.990.000",
+"price":"30990000",
 "listprice":"15milion-50milion",
 "detail":{
     "screen":"AMOLED",
@@ -670,7 +670,7 @@ var list_products =[{
 "name":"OPPO Reno8 5G",
 "company":"oppo",
 "img":"image/oppo-reno8-5g.jpg",
-"price":"11.990.000",
+"price":"11990000",
 "listprice":"10milion-15milion",
 "detail":{
     "screen":"AMOLED",
@@ -688,7 +688,7 @@ var list_products =[{
 "name":"OPPO Reno8 Z",
 "company":"oppo",
 "img":"image/Reno8-Z-5G-specs.png",
-"price":"7.890.000",
+"price":"7890000",
 "listprice":"5milion-10milion",
 "detail":{
     "screen":"AMOLED",
@@ -706,7 +706,7 @@ var list_products =[{
 "name":"OPPO Reno8",
 "company":"oppo",
 "img":"image/Reno8.png",
-"price":"7.490.000",
+"price":"7490000",
 "listprice":"5milion-10milion",
 "detail":{
     "screen":"AMOLED",
@@ -724,7 +724,7 @@ var list_products =[{
 "name":"OPPO Reno8 T 5G",
 "company":"oppo",
 "img":"image/oppo-reno8t-5g.jpg",
-"price":"7.890.000",
+"price":"7890000",
 "listprice":"5milion-10milion",
 "detail":{
     "screen":"AMOLED",
@@ -742,7 +742,7 @@ var list_products =[{
 "name":"OPPO Reno8 T",
 "company":"oppo",
 "img":"image/reno8-t.png",
-"price":"7.090.000",
+"price":"7090000",
 "listprice":"5milion-10milion",
 "detail":{
     "screen":"AMOLED",
@@ -761,7 +761,7 @@ var list_products =[{
     "name":"Samsung Galaxy S23 Ultra",
     "company":"samsung",
     "img":"image/samsung-galaxy-s23-ultra.jpg",
-    "price":"32.990.000đ",
+    "price":"32990000đ",
     "listprice":"15milion-50milion",
     "detail":{
         "screen":"Dynamic AMOLED 2X",
@@ -779,7 +779,7 @@ var list_products =[{
     "name":"Samsung Galaxy S23",
     "company":"samsung 13",
     "img":"image/Samsung _Galaxy_S23.png",
-    "price":"18.590.000đ",
+    "price":"18590000đ",
     "listprice":"15milion-50milion",
     "detail":{
         "screen":"Dynamic AMOLED 2X",
@@ -797,7 +797,7 @@ var list_products =[{
     "name":"Samsung Galaxy Z Flip5",
     "company":"samsung",
     "img":"image/samsung-galaxy-z-flip5.jpg",
-    "price":"20.790.000đ",
+    "price":"20790000đ",
     "listprice":"15milion-50milion",
     "detail":{
         "screen":"Dynamic AMOLED 2X",
@@ -815,7 +815,7 @@ var list_products =[{
     "name":"Samsung Galaxy S22 Ultra",
     "company":"samsung",
     "img":"image/galaxy-s22-ultra.jpeg",
-    "price":"36.990.000đ",
+    "price":"36990000đ",
     "listprice":"15milion-50milion",
     "detail":{
         "screen":"Dynamic AMOLED 2X",
@@ -833,7 +833,7 @@ var list_products =[{
     "name":"Samsung Galaxy Fold5",
     "company":"samsung",
     "img":"image/galaxy-z-fold-5.jpg",
-    "price":"44.590.000đ",
+    "price":"44590000đ",
     "listprice":"15milion-50milion",
     "detail":{
         "screen":"Dynamic AMOLED 2X",
@@ -851,7 +851,7 @@ var list_products =[{
     "name":"Samsung Galaxy Tab S9 FE Plus",
     "company":"samsung",
     "img":"image/Samsung-Galaxy-Tab-S9-FE-Plus.jpg",
-    "price":"15.290.000đ",
+    "price":"15290000đ",
     "listprice":"15milion-50milion",
     "detail":{
         "screen":"TFT LCD",
@@ -869,7 +869,7 @@ var list_products =[{
     "name":"Samsung Galaxy A34",
     "company":"samsung",
     "img":"image/Samsung-Galaxy-A34.jpg",
-    "price":"7.100.000đ",
+    "price":"7100000đ",
     "listprice":"10milion-15milion",
     "detail":{
         "screen":"Super AMOLED",
@@ -887,7 +887,7 @@ var list_products =[{
     "name":"Samsung Galaxy m34",
     "company":"samsung",
     "img":"image/Samsung-Galaxy-M34.png",
-    "price":"7.190.000đ",
+    "price":"7190000đ",
     "listprice":"10milion-15milion",
     "detail":{
         "screen":"Super AMOLED",
@@ -905,7 +905,7 @@ var list_products =[{
     "name":"Samsung Galaxy m14",
     "company":"samsung",
     "img":"image/samsung-galaxy-m14.jpg",
-    "price":"3.850.000đ",
+    "price":"3850000đ",
     "listprice":"0milion-5milion",
     "detail":{
         "screen":"PLS LCD",
@@ -923,7 +923,7 @@ var list_products =[{
     "name":"Samsung Galaxy A05",
     "company":"samsung",
     "img":"image/samsung-galaxy-a05.jpg",
-    "price":"3.000.000đ",
+    "price":"3000000đ",
     "listprice":"0milion-5milion",
     "detail":{
         "screen":"PLS LCD",
@@ -941,7 +941,7 @@ var list_products =[{
     "name":"Samsung Galaxy S21 FE",
     "company":"samsung",
     "img":"image/Samsung-Galaxy-S21-FE-5G.jpg",
-    "price":"9.900.000đ",
+    "price":"9900000đ",
     "listprice":"5milion-10milion",
     "detail":{
         "screen":"Dynamic AMOLED 2X",
@@ -959,7 +959,7 @@ var list_products =[{
     "name":"Samsung Galaxy A05S",
     "company":"samsung",
     "img":"image/Samsung-Galaxy-A05S.jpg",
-    "price":"3.890.000đ",
+    "price":"3890000đ",
     "listprice":"0milion-5milion",
     "detail":{
         "screen":"IPS LCD",
@@ -980,7 +980,7 @@ var list_sales=[
         "name": "Xiaomi 13",
         "company": "xiaomi",
         "img": "image/xiaomi_13.jpg",
-        "price": "16.990.000",
+        "price": "16990000",
         "listprice":"10milion-15milion",
         "detail": {
             "screen": "AMOLED 1080 x 2400 pixels (FULL HD+)",
@@ -998,7 +998,7 @@ var list_sales=[
         "name":"Samsung Galaxy S21 FE",
         "company":"samsung",
         "img":"image/Samsung-Galaxy-S21-FE-5G.jpg",
-        "price":"9.900.000đ",
+        "price":"9900000đ",
         "listprice":"5milion-10milion",
         "detail":{
             "screen":"Dynamic AMOLED 2X",
@@ -1016,7 +1016,7 @@ var list_sales=[
         "name":"OPPO Reno8 T",
         "company":"oppo",
         "img":"image/reno8-t.png",
-        "price":"7.090.000",
+        "price":"7090000",
         "listprice":"5milion-10milion",
         "detail":{
             "screen":"AMOLED",
@@ -1034,7 +1034,7 @@ var list_sales=[
             "name": "Iphone 14 Pro",
             "company": "iphone",
             "img": "image/ip14pro.jpg",
-            "price": "32.990.000",
+            "price": "32990000",
             "listprice":"15milion-50milion",
             "detail": {
                 "screen": "Super Retina XDR OLED",
@@ -1052,7 +1052,7 @@ var list_sales=[
         "name":"OPPO Reno8 5G",
         "company":"oppo",
         "img":"image/oppo-reno8-5g.jpg",
-        "price":"11.990.000",
+        "price":"11990000",
         "listprice":"10milion-15milion",
         "detail":{
             "screen":"AMOLED",
@@ -1070,7 +1070,7 @@ var list_sales=[
         "name": "Vivo Y17s 4G",
         "company": "vivo",
         "img": "image/Vivo_Y17s_4G.jpg",
-        "price": "3.790.000",
+        "price": "3790000",
         "listprice":"0-5milion",
         "detail": {
             "screen": "IPS LCD HD+",
@@ -1088,7 +1088,7 @@ var list_sales=[
         "name":"OPPO Find N2 Fold",
         "company":"oppo",
         "img":"image/oppofindn2fold.jpg",
-        "price":"30.990.000",
+        "price":"30990000",
         "listprice":"15milion-50milion",
         "detail":{
             "screen":"AMOLED",
@@ -1106,7 +1106,7 @@ var list_sales=[
         "name": "Iphone 11 Pro Max",
         "company": "iphone",
         "img": "image/ip11promax.jpg",
-        "price": "13.690.000",
+        "price": "13690000",
         "listprice":"10milion-15milion",
         "detail": {
             "screen": "Super Retina XDR OLED",
@@ -1124,7 +1124,7 @@ var list_sales=[
         "name":"Samsung Galaxy A05S",
         "company":"samsung",
         "img":"image/Samsung-Galaxy-A05S.jpg",
-        "price":"3.890.000đ",
+        "price":"3890000đ",
         "listprice":"0milion-5milion",
         "detail":{
             "screen":"IPS LCD",
@@ -1142,7 +1142,7 @@ var list_sales=[
         "name": "Iphone X",
         "company": "iphone",
         "img": "image/ipx.jpg",
-        "price": "6.190.000",
+        "price": "6190000",
         "listprice":"5milion-10milion",
         "detail": {
             "screen": "OLED5.8Super Retina",
@@ -1160,7 +1160,7 @@ var list_sales=[
         "name":"Samsung Galaxy S23 Ultra",
         "company":"samsung",
         "img":"image/samsung-galaxy-s23-ultra.jpg",
-        "price":"32.990.000đ",
+        "price":"32990000đ",
         "listprice":"15milion-50milion",
         "detail":{
             "screen":"Dynamic AMOLED 2X",
@@ -1178,7 +1178,7 @@ var list_sales=[
         "name":"Samsung Galaxy m14",
         "company":"samsung",
         "img":"image/samsung-galaxy-m14.jpg",
-        "price":"3.850.000đ",
+        "price":"3850000đ",
         "listprice":"0milion-5milion",
         "detail":{
             "screen":"PLS LCD",
@@ -1196,7 +1196,7 @@ var list_sales=[
         "name":"Samsung Galaxy A34",
         "company":"samsung",
         "img":"image/Samsung-Galaxy-A34.jpg",
-        "price":"7.100.000đ",
+        "price":"7100000đ",
         "listprice":"10milion-15milion",
         "detail":{
             "screen":"Super AMOLED",
@@ -1214,7 +1214,7 @@ var list_sales=[
         "name": "Xiaomi 12S",
         "company": "xiaomi",
         "img": "image/xiaomi_12s.jpg",
-        "price": "10.950.000",
+        "price": "10950000",
         "listprice":"10milion-15milion",
         "detail": {
             "screen": "AMOLED 1080 x 2400 pixels (FULL HD+)",
@@ -1232,7 +1232,7 @@ var list_sales=[
         "name": "Xiaomi Redmi 10",
         "company": "xiaomi",
         "img": "image/xiaomi_redmi10.jpg",
-        "price": "3.490.000",
+        "price": "3490000",
         "listprice":"0-5milion",
         "detail": {
             "screen": "IPS LCD Full HD+ 90Hz)",
@@ -1250,7 +1250,7 @@ var list_sales=[
         "name": "Iphone 15 Pro",
         "company": "iphone",
         "img": "image/ip15promax.jpg",
-        "price": "36.490.000",
+        "price": "36490000",
         "listprice":"15milion-50milion",
         "detail": {
             "screen": "Super Retina XDR OLED",
