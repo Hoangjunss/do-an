@@ -8,6 +8,10 @@
  const inputpassreg=document.querySelector('.passreg');
  var c='chung';
  var s=c[1];
+
+ setTimeout(() => {
+    checkCurrentUser();
+ }, 1);
  
 
  function equalUser(u1, u2) {
@@ -82,6 +86,7 @@ function login(){
     listUser.push(user);
     
     window.localStorage.setItem('ListUser',JSON.stringify(listUser));
+    window.location.href="signin.html"
    alert("vui long an vào đăng nhạp")
     
  }
@@ -119,6 +124,17 @@ function User(username, pass, ho, ten, email, products, donhang) {
 	this.pass = pass;
 	this.products = products || [];
 	this.donhang = donhang || [];
+}
+function checkCurrentUser(){
+    var user=getCurrentUser();
+    
+    console.log(user);
+    if(user!=null){
+        
+        document.querySelector('.signin').innerHTML=user.username;
+        document.querySelector('.signin').href="giohang.html"
+
+    }
 }
 
 

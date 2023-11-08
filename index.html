@@ -22,7 +22,7 @@
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-warning bg-gradient fixed-top mh-100 d-block" style="  background:white;" >
       <div class="container-fluid d-flex justify-content-center">
-        <a class="navbar-brand mx-sm-2 text-primary text  " style="padding-left: 20%;" href="javascript:void(0)">Logo</a>
+        <a class="navbar-brand mx-sm-2 text-primary text  " style="padding-left: 20%;" href="index.html">Logo</a>
         <form class="d-flex col-sm-4 ms-sm-5 ">
           <input class="form-control me-5 " id="searchBar" type="text" placeholder="Search">
           <button class="btn btn-primary" style="max-width: 70px;" type="button">Search</button>
@@ -30,7 +30,7 @@
         <ul class="navbar-nav me-auto " >
          
           <li class="nav-item mx-sm-3">
-            <a class="nav-link text-primary text " href="signin.html">Đăng nhập</a>
+            <a class="nav-link text-primary text signin" href="signin.html">Đăng nhập</a>
           </li>
         </ul>
       </div>
@@ -167,7 +167,9 @@
     
       <script src="javascripts/data.js"></script>
       <script src="javascripts/seaarch.js"></script>
+      <script src="main.js"></script>
         <script>
+          
            var img= document.querySelector(".img");
            var index=1;
         changeImge = function()
@@ -195,7 +197,8 @@
             if(index==4) index = 0;
         }
         setInterval(changeImge,2000);
-       
+        
+        
         </script>
 </body>
 </html>
