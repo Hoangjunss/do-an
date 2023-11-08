@@ -194,9 +194,7 @@ function getsearch(){
 }
 
 
-function them(masp,name){
-    console.log(name);
-}
+
 function getram(){
     searchDataram=document.getElementById('list-ram').value;
     console.log(searchDataram);

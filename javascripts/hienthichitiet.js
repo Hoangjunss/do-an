@@ -2,8 +2,7 @@
 
 phanTich_URL_chiTietSanPham();
 
-var btnadd=document.querySelector(".btn-add-cart");
-btnadd.addEventListener('click',them());
+
 function them(){
     var name=document.querySelector(".name");
     var user=getCurrentUser();
