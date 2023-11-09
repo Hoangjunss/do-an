@@ -72,7 +72,7 @@ button:hover {
     </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-warning bg-gradient fixed-top mh-100 d-block" style="  background:white;" >
+  <nav class="navbar navbar-expand-sm navbar-dark bg-warning bg-gradient  mh-100 d-block" style="  background:white;" >
     <div class="container-fluid d-flex justify-content-center">
       <a class="navbar-brand mx-sm-2 text-primary text  " style="padding-left: 20%;" href="index.html">Logo</a>
       <form class="d-flex col-sm-4 ms-sm-5 ">
@@ -118,7 +118,7 @@ button:hover {
       </div>
      
     </nav>
-      <div class=" mh-100 ms-sm-5 " style="height: 80px; margin-top: 200px; margin: 50px; border: 1px solid ;background:white;">
+      <div class=" mh-100  " style="height: 80px; margin-top: 500px; margin: 50px; border: 1px solid ;background:white;">
         
         <select class="col-sm-3 mx-sm-5 my-sm-4" name="" id="list-price" onchange="getsearch()">
             <option value="price">price</option>
@@ -224,5 +224,88 @@ function displayProductsOnPage(pageNumber) {
     displayProductsOnPage(currentPage)
 }
 getcompany();
+function getsearch(){
+    const searchDataprice = document.getElementById('list-price').value.toLowerCase();
+    const  searchDataram=document.getElementById('list-ram').value;
+    const searchDatacompany = nameProduct;
+    
+    if(searchDatacompany!="company" && searchDataprice!="price" && searchDataram!="ram"){
+        console.log("1");
+        currentPage=1;
+         filteredData = categories.filter((item) => {
+            return (
+                 item.company.includes(searchDatacompany)&& item.listprice && item.listprice.includes(searchDataprice)&& item.detail.ram && item.detail.ram.includes(searchDataram)
+            )
+        })
+        
+        displayProductsOnPage(currentPage);
+    }else
+    if(searchDataprice && searchDatacompany=="company"&&searchDataram=="ram"){
+        console.log("2");
+        currentPage=1;
+         filteredData = categories.filter((item) => {
+            return (
+               item.listprice && item.listprice.includes(searchDataprice)
+            )
+        })
+        
+        displayProductsOnPage(currentPage);
+    }else if(searchDatacompany &&searchDataram=="ram"&&searchDataprice=="price" ){
+        console.log("3");
+        currentPage=1;
+             filteredData = categories.filter((item) => {
+                return (
+                    item.company.includes(searchDatacompany)
+                )
+            })
+            console.log(filteredData)
+            displayProductsOnPage(currentPage);
+            
+           // displayItem(filteredData)
+        }else if(searchDataprice && searchDatacompany!="company"&&searchDataram=="ram"){
+            currentPage=1;
+             filteredData = categories.filter((item) => {
+                return (
+                    item.company.includes(searchDatacompany)&& item.listprice && item.listprice.includes(searchDataprice)
+                )
+            })
+            
+            displayProductsOnPage(currentPage);
+        }
+        else if(searchDataprice=="price" && searchDatacompany=="company"&&searchDataram!="ram"){
+            currentPage=1;
+             filteredData = categories.filter((item) => {
+                return (
+                    item.detail.ram && item.detail.ram.includes(searchDataram)
+                )
+            })
+            displayProductsOnPage(currentPage);
+        }
+        else if(searchDataprice!="price" && searchDatacompany=="company"&&searchDataram!="ram"){
+            currentPage=1;
+            console.log("price ram")
+            console.log(searchDataprice);
+            console.log(searchDataram)
+             filteredData = categories.filter((item) => {
+                return (
+                    item.listprice && item.listprice.includes(searchDataprice)&& item.detail.ram && item.detail.ram.includes(searchDataram)
+                )
+            })
+            console.log(filteredData)
+            displayProductsOnPage(currentPage);
+        }else if(searchDataprice=="price" && searchDatacompany!="company"&&searchDataram!="ram"){
+            currentPage=1;
+            console.log(5)
+             filteredData = categories.filter((item) => {
+                return (
+                   item.company&& item.company.includes(searchDatacompany)&& item.detail.ram && item.detail.ram.includes(searchDataram)
+                )
+            })
+            displayProductsOnPage(currentPage);
+        }
+    
+}
+
+
 </script>
 </html>
